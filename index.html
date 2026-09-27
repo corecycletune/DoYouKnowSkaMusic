@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>do you know ska music?</title>
-  <meta name="description" content="SKAって何？ ジャマイカから2 Tone、Third Wave、日本のSKA、DUBまで。音を聴きながら辿る、初心者のためのSKA音楽史。">
-  <meta name="theme-color" content="#f0e8d3">
+  <meta name="description" content="SKAって何？ ジャマイカからRocksteady、Reggae、Dub、2 Tone、Third Wave、日本のSKAまで。音を聴きながら辿るSKA音楽史。">
+  <meta name="theme-color" content="#e9ddbd">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
         <a href="#listen">LISTEN</a>
         <a href="#dub">DUB</a>
         <a href="#watch">WATCH</a>
-        <a href="#notes">NOTES</a>
+        <a href="./articles/japanese-dub.html">JAPAN</a>
       </nav>
     </div>
   </header>
@@ -40,10 +40,15 @@
           <button class="button ghost" data-jump="timeline">年表から掘る</button>
         </div>
       </div>
-      <aside class="sticky-note">
-        <strong>このサイトの方針</strong>
-        <p>難しいことはちゃんと調べる。<br>でも、難しい書き方はしない。</p>
-        <small>※ 史実と俗説はできるだけ分けます。</small>
+      <aside class="listen-card">
+        <p class="eyebrow">FIRST LISTEN</p>
+        <strong>まず、耳で。</strong>
+        <ul>
+          <li>The Skatalites</li>
+          <li>Prince Buster</li>
+          <li>Desmond Dekker</li>
+        </ul>
+        <p>文字より先に、あの跳ね方を覚える。</p>
       </aside>
     </section>
 
@@ -51,7 +56,7 @@
       <div class="section-head">
         <p class="eyebrow">INTERACTIVE HISTORY</p>
         <h2>音楽史を、一本道にしない。</h2>
-        <p>地域・ジャンル・社会史を重ねて見る年表。ボタンで絞り込めます。</p>
+        <p>ジャマイカ、英国、アメリカ、日本。音楽と人の移動と社会の出来事を、同じ時間軸で。</p>
       </div>
 
       <div class="timeline-tools" role="group" aria-label="年表フィルタ">
@@ -65,8 +70,6 @@
       </div>
 
       <div id="timelineList" class="timeline-list" aria-live="polite"></div>
-
-      <p class="mini-note">初版は「骨格」。今後、人物・レーベル・作品・映画・地域を同じデータに追加していきます。</p>
     </section>
 
     <section id="listen" class="section paper">
@@ -114,7 +117,7 @@
           <span>DUB TECHNO</span>
         </div>
       </div>
-      <p class="center">日本側は MUTE BEAT / AUDIO ACTIVE / LITTLE TEMPO / DRY &amp; HEAVY / RATVILLE なども、ちゃんと枝を作って残します。</p>
+      <p class="center">MUTE BEAT、AUDIO ACTIVE、LITTLE TEMPO、DRY &amp; HEAVY、RATVILLE。日本にも面白い枝がいくつもある。</p>
       <p class="center"><a class="text-link" href="./articles/japanese-dub.html">日本DUBの入口を読む →</a></p>
     </section>
 
@@ -126,7 +129,7 @@
       <div class="watch-grid">
         <article>
           <h3>Legends of Ska</h3>
-          <p>オリジナル・ジャマイカンSKA期を掘るドキュメンタリー。初期史の一次証言を拾う入口に。</p>
+          <p>オリジナル・ジャマイカンSKA期を掘るドキュメンタリー。初期の空気を知る入口に。</p>
         </article>
         <article>
           <h3>Dance Craze</h3>
@@ -138,23 +141,11 @@
         </article>
       </div>
     </section>
-
-    <section id="notes" class="section">
-      <div class="section-head">
-        <p class="eyebrow">EDITOR'S NOTE</p>
-        <h2>昔より、ちゃんと。昔みたいに、気楽に。</h2>
-      </div>
-      <div class="columns">
-        <p>このサイトは「論文」ではありません。でも、雑な伝説をそのままコピペする場所にもしたくありません。複数の資料を見て、違う説があるところは違う説として書く。その上で、音楽好きが友達に話すくらいの温度で。</p>
-        <p>入口はSKA。でも奥にはRocksteady、Reggae、Dub、2 Tone、Third Wave、Ska Punk、日本のSKAとDUBまで。気になったところから勝手に迷子になってください。</p>
-      </div>
-    </section>
   </main>
 
   <footer>
     <div class="checker" aria-hidden="true"></div>
-    <p>do you know ska music? — independent ska / reggae / dub notes.</p>
-    <p class="tiny">No flashing GIFs were harmed in this reboot.</p>
+    <p>do you know ska music?</p>
   </footer>
 
   <script src="./timeline-data.js"></script>
