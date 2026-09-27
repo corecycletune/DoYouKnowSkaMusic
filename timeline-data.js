@@ -1,7 +1,7 @@
 window.SKA_TIMELINE = [
   {year:1950, region:"jamaica", tags:["jamaica","society"], title:"Mento / Jamaican R&B / Sound System", text:"ジャマイカの土着音楽Mento、米国R&Bの影響、そして街のサウンドシステム文化。SKAが生まれる前の土台がそろっていく。"},
   {year:1960, region:"jamaica", tags:["jamaica","ska"], title:"SKA", text:"オフビートを強く刻む、速く跳ねるジャマイカ独自の新しい音楽が形になる。独立前後の空気と重なって一気に広がる。"},
-  {year:1964, region:"jamaica", tags:["jamaica","ska"], title:"The Skatalites", text:"SKA初期を代表するミュージシャン集団。ここだけはジャンル年表の中に置いておきたい例外。"},
+  {year:1964, region:"jamaica", tags:["jamaica","ska"], title:"The Skatalites", text:"SKA初期を代表するミュージシャン集団。Don Drummond、Tommy McCook、Roland Alphonsoらが参加し、初期SKAの演奏と録音を支えた。"},
   {year:1966, region:"jamaica", tags:["jamaica","rocksteady"], title:"Rocksteady", text:"SKAよりテンポを落とし、ベースとヴォーカルが前へ。短い時代ながら、その後のReggaeへ直結する重要な転換点。"},
   {year:1968, region:"jamaica", tags:["jamaica","reggae"], title:"Early Reggae", text:"Rocksteadyからさらにリズムが変化し、Reggaeと呼ばれる新しいスタイルが台頭。"},
   {year:1971, region:"jamaica", tags:["jamaica","roots"], title:"Roots Reggae", text:"Rastafari、社会や政治、アフリカ意識を強く打ち出すRoots Reggaeが70年代の大きな流れになる。"},
@@ -16,5 +16,5 @@ window.SKA_TIMELINE = [
   {year:2011, region:"jamaica", tags:["jamaica","roots","modern"], title:"Reggae Revival", text:"Protoje、Chronixx、Kabaka Pyramid、Jah9、Jesse Royalら若い世代が、Roots Reggaeの思想とバンドサウンドを現代の感覚で再接続。"},
   {year:2016, region:"jamaica", tags:["jamaica","dancehall","modern"], title:"Trap Dancehall", text:"Trapの808、ハイハット、暗い音像を取り込んだ新しいDancehallが拡大。Montego Bay周辺のシーンや若い世代から広がる。"},
   {year:2020, region:"jamaica", tags:["jamaica","dancehall","modern"], title:"現代ジャマイカ音楽：ひとつの後継ジャンルではない", text:"Trap Dancehall、Dancehall Pop、現代Roots / Reggae Revival、AfrobeatsやHip-Hopとの往来が同時進行。SKAから始まった変化の速さは今も続いている。"},
-  {year:1980, region:"japan", tags:["japan","dub"], title:"日本でもSKA / Reggae / Dubが独自に根付く", text:"輸入盤、クラブ、ライブ、バンド文化を通じて、日本でもSKAやDubが独自のシーンを形成していく。個々のバンドは別ページで深掘り。"}
+  {year:1980, region:"japan", tags:["japan","dub"], title:"日本でもSKA / Reggae / Dubが独自に根付く", text:"輸入盤、クラブ、ライブ、バンド文化を通じて、日本でもSKAやReggae、Dubが独自のシーンを形成していく。"}
 ];
