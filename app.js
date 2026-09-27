@@ -39,6 +39,7 @@ function renderLineage(){
       <text x="340" y="28" text-anchor="middle">JAMAICA</text>
       <text x="515" y="28" text-anchor="middle">DUB / FUSION</text>
       <text x="765" y="28" text-anchor="middle">SKA FAMILY</text>
+      <text x="965" y="28" text-anchor="middle">JAPAN</text>
     </g>`;
   const grid=years.map(y=>`
     <g class="lineage-year"><text x="8" y="${mapY(y)+4}">${y}</text>
