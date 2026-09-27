@@ -145,7 +145,7 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   box-shadow:var(--shadow);
   -webkit-overflow-scrolling:touch;
 }
-.lineage-stage{position:relative;width:100%;min-width:1020px;aspect-ratio:1080/1260}
+.lineage-stage{position:relative;width:100%;min-width:1100px;aspect-ratio:1180/1850}
 .lineage-svg{position:absolute;inset:0;display:block;width:100%;height:100%}
 .lineage-lanes text{font:800 11px monospace;fill:var(--muted);letter-spacing:.12em}
 .lineage-year text{font:700 12px monospace;fill:var(--muted)}
@@ -187,7 +187,7 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .timeline-subhead{margin:3rem 0 .8rem;font:900 1.6rem Georgia,serif;border-bottom:3px double var(--brown);padding-bottom:.4rem}
 @media(max-width:720px){
   .lineage-scroll{margin-left:-1.2rem;margin-right:-1.2rem;border-left:0;border-right:0}
-  .lineage-stage{min-width:1000px}
+  .lineage-stage{min-width:1100px}
   .lineage-popover{width:245px;max-width:35%;padding:.8rem}
   .lineage-popover h3{font-size:1.1rem}
   .lineage-popover p{font-size:.8rem}
@@ -398,4 +398,20 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 @media(max-width:480px){
   .sitebar-nav a:nth-child(2),
   .sitebar-nav a:nth-child(3){display:none}
+}
+
+/* Logo and full navigation remain usable on narrow screens. */
+.site-logo{display:block;flex:0 0 clamp(145px,22vw,240px);line-height:0}
+.site-logo img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
+.sitebar-nav{overflow-x:auto;min-width:0;scrollbar-width:thin}
+.sitebar-nav a{font-size:.82rem;white-space:nowrap;padding:.4rem .52rem}
+@media(max-width:720px){
+ .sitebar-inner{align-items:center;flex-wrap:wrap}
+ .site-logo{flex-basis:180px}
+ .sitebar-nav{width:100%;justify-content:space-between;margin:0}
+ .sitebar-nav a{font-size:.72rem;padding:.4rem .3rem}
+}
+@media(max-width:480px){
+ .sitebar-nav a:nth-child(2),.sitebar-nav a:nth-child(3){display:inline-block}
+ .sitebar-nav a{font-size:.66rem}
 }

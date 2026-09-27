@@ -1,6 +1,6 @@
 window.SKA_LINEAGE = {
-  width: 1080,
-  height: 1260,
+  width: 1180,
+  height: 1850,
   nodes: [
     {id:"mento-rnb", label:"Mento / R&B", year:1952, x:340, tags:["jamaica"], summary:"Mento、米国R&B、サウンドシステム文化が、のちのSKAを生む土台になった。", article:"./genres/mento-rnb.html"},
     {id:"ska", label:"SKA", year:1961, x:340, tags:["jamaica","ska"], summary:"1960年代初頭のジャマイカで形になったSKA。後世にはOriginal Ska / Jamaican Ska / First-wave Skaとも呼び分けられる。", article:"./genres/ska.html"},
@@ -18,10 +18,10 @@ window.SKA_LINEAGE = {
     {id:"traditional-revival", label:"Trad / Authentic Revival", year:1993, x:610, tags:["ska"], detail:true, summary:"60年代ジャマイカのSKAやRocksteadyの感触を強く受け継ぐリバイバル系。", article:"./genres/traditional-ska-revival.html"},
     {id:"ska-punk", label:"Ska Punk", year:1987, x:680, tags:["ska"], detail:true, summary:"SKAのオフビートとPunk / Hardcoreの速度や歪みを組み合わせた流れ。Third Waveの大きな一角になった。", article:"./genres/ska-punk.html"},
     {id:"ska-core", label:"Ska-core", year:1993, x:870, tags:["ska"], detail:true, summary:"Ska Punkの中でもHardcore色が強い呼び方。The Mighty Mighty Bosstones周辺で広く知られた。", article:"./genres/ska-core.html"},
-    {id:"ska-jazz", label:"Ska Jazz", year:1994, x:610, tags:["ska"], detail:true, summary:"SKAのリズムとJazzの即興、ホーンアレンジを前面に出す流れ。", article:"./genres/ska-jazz.html"},
+    {id:"ska-jazz", label:"Ska Jazz", year:1994, x:1070, tags:["ska"], detail:true, summary:"SKAのリズムとJazzの即興、ホーンアレンジを前面に出す流れ。", article:"./genres/ska-jazz.html"},
     {id:"latin-ska", label:"Latin Ska", year:1988, x:870, tags:["ska"], detail:true, summary:"中南米でSKAがRock en Españolや地域のリズムと結びつき、独自の大きなシーンへ発展した。", article:"./genres/latin-ska.html"},
-    {id:"japan-ska", label:"Japanese Ska", year:1985, x:965, tags:["ska","japan"], summary:"1980年代半ばから、日本でも2 Tone、Jamaican Ska、Jazz、Punkなど複数の入口から独自のSKA sceneが育った。", article:"./genres/japan-ska.html"},
-    {id:"japan-dub", label:"Japanese Dub", year:1984, x:965, tags:["japan","dub"], summary:"MUTE BEATをはじめ、日本ではDubがlive band、Jazz、Electronic musicと結びつき独自に発展した。", article:"./articles/japanese-dub.html"},
+    {id:"japan-ska", label:"Japanese Ska", year:1985, x:885, tags:["ska","japan"], summary:"1980年代半ばから、日本でも2 Tone、Jamaican Ska、Jazz、Punkなど複数の入口から独自のSKA sceneが育った。", article:"./genres/japan-ska.html"},
+    {id:"japan-dub", label:"Japanese Dub", year:1984, x:1070, tags:["japan","dub"], summary:"MUTE BEATをはじめ、日本ではDubがlive band、Jazz、Electronic musicと結びつき独自に発展した。", article:"./articles/japanese-dub.html"},
 
     {id:"digital", label:"Digital Dancehall", year:1985, x:340, tags:["jamaica","dancehall","digital"], summary:"Sleng Tengを象徴に、打ち込み主体のRiddimが主流化。制作方法そのものが変わった。", article:"./genres/digital-dancehall.html"},
     {id:"ragga", label:"Ragga", year:1988, x:340, tags:["jamaica","dancehall","ragga"], summary:"デジタル化したDancehallがさらに硬質化。DeejayやSingjayのスタイルも大きく広がった。", article:"./genres/ragga.html"},

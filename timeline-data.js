@@ -4,6 +4,7 @@ window.SKA_TIMELINE = [
   {year:1964, region:"jamaica", tags:["jamaica","ska"], title:"The Skatalites", text:"SKA初期を代表するミュージシャン集団。Don Drummond、Tommy McCook、Roland Alphonsoらが参加し、初期SKAの演奏と録音を支えた。"},
   {year:1966, region:"jamaica", tags:["jamaica","rocksteady"], title:"Rocksteady", text:"SKAよりテンポを落とし、ベースとヴォーカルが前へ。短い時代ながら、その後のReggaeへ直結する重要な転換点。"},
   {year:1968, region:"jamaica", tags:["jamaica","reggae"], title:"Early Reggae", text:"Rocksteadyからさらにリズムが変化し、Reggaeと呼ばれる新しいスタイルが台頭。"},
+  {year:1968, region:"uk", tags:["uk","reggae"], title:"Trojan Records 設立", text:"英国でTrojan Recordsが始動。ジャマイカのSka、Rocksteady、Early Reggaeのレコードを広く流通させ、後の2 Tone世代が音源に出会う土壌を作った。"},
   {year:1971, region:"jamaica", tags:["jamaica","roots"], title:"Roots Reggae", text:"Rastafari、社会や政治、アフリカ意識を強く打ち出すRoots Reggaeが70年代の大きな流れになる。"},
   {year:1972, region:"jamaica", tags:["jamaica","dub"], title:"Dub", text:"ヴォーカルを抜き、ベースとドラムを残し、エコーやリバーブ、ミキサー操作そのものを音楽にする。スタジオが楽器になる。"},
   {year:1978, region:"jamaica", tags:["jamaica","dancehall"], title:"Dancehall", text:"Roots中心の時代から、サウンドシステムとダンスの現場を軸にしたDancehallの時代へ。Deejayの存在感もさらに強くなる。"},

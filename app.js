@@ -1,24 +1,24 @@
 const SITE_BASE="/DoYouKnowSkaMusic/";
 (function injectSitebar(){
-  if(document.querySelector(".masthead") || document.querySelector(".sitebar")) return;
+  if(document.querySelector(".sitebar")) return;
   const bar=document.createElement("header");
   bar.className="sitebar";
   bar.innerHTML=`
     <div class="sitebar-inner">
-      <a class="site-logo" href="${SITE_BASE}" aria-label="Do you know ska music? HOME">
-        <span class="site-logo-do">Do</span> you know <span class="site-logo-ska">ska</span> music?
-      </a>
+      <a class="site-logo" href="${SITE_BASE}" aria-label="Do you know ska music? HOME"><img src="${SITE_BASE}assets/ska-logo.jpg" alt="Do you know SKA music?"></a>
       <nav class="sitebar-nav" aria-label="サイトナビ">
         <a href="${SITE_BASE}">HOME</a>
-        <a href="${SITE_BASE}#timeline">HISTORY</a>
+        <a href="${SITE_BASE}#timeline">TIMELINE</a>
         <a href="${SITE_BASE}genres/ska.html">GENRES</a>
         <a href="${SITE_BASE}genres/japan-ska.html">JAPAN</a>
         <a href="${SITE_BASE}#listen">LISTEN</a>
       </nav>
     </div>
   `;
+  const masthead=document.querySelector(".masthead");
   const checker=document.body.querySelector(":scope > .checker");
-  if(checker) checker.insertAdjacentElement("afterend",bar);
+  if(masthead) masthead.before(bar);
+  else if(checker) checker.insertAdjacentElement("afterend",bar);
   else document.body.prepend(bar);
 })();
 
@@ -34,7 +34,7 @@ function render(filter="all"){
   const rows=filter==="all"?data:data.filter(x=>x.tags.includes(filter)||x.region===filter);
   list.innerHTML=rows.map(item=>`
     <article class="timeline-item">
-      <div class="year">${item.year}s</div>
+      <div class="year">${item.year%10===0?`${item.year}s`:item.year}</div>
       <div class="timeline-card">
         <div class="meta">${item.tags.map(t=>`<span class="tag ${t}">${t.toUpperCase()}</span>`).join("")}</div>
         <h3>${item.title}</h3><p>${item.text}</p>
@@ -42,9 +42,14 @@ function render(filter="all"){
     </article>`).join("");
 }
 
+// Give crowded late-1970s to early-1990s years more room than quiet decades.
+const timeStops=[[1950,100],[1960,250],[1970,445],[1980,710],[1990,1090],[2000,1320],[2010,1500],[2020,1680],[2026,1790]];
 function mapY(year){
-  const min=1948,max=2026,top=74,bottom=1205;
-  return top+((year-min)/(max-min))*(bottom-top);
+  for(let i=1;i<timeStops.length;i++){
+    const [endYear,endY]=timeStops[i];
+    if(year<=endYear){const [startYear,startY]=timeStops[i-1];return startY+(year-startYear)*(endY-startY)/(endYear-startYear);}
+  }
+  return timeStops.at(-1)[1];
 }
 function curvePath(a,b){
   const y1=mapY(a.year),y2=mapY(b.year);
@@ -63,7 +68,7 @@ function renderLineage(){
       <text x="340" y="28" text-anchor="middle">JAMAICA</text>
       <text x="515" y="28" text-anchor="middle">DUB / FUSION</text>
       <text x="765" y="28" text-anchor="middle">SKA FAMILY</text>
-      <text x="965" y="28" text-anchor="middle">JAPAN</text>
+      <text x="995" y="28" text-anchor="middle">JAPAN</text>
     </g>`;
   const grid=years.map(y=>`
     <g class="lineage-year"><text x="8" y="${mapY(y)+4}">${y}</text>
@@ -154,7 +159,7 @@ document.querySelectorAll("[data-jump]").forEach(btn=>{
 
 const YT_KNOWN = {
   "The Skatalites – Guns of Navarone":"DTol7Wm_NiQ",
-  "Prince Buster – One Step Beyond":"-BaMA06WRaw",
+  "Prince Buster – One Step Beyond":"2xcGVm06jl4",
   "Desmond Dekker & The Aces – Israelites":"mxtfdH3-TQ4",
   "The Wailing Wailers – Simmer Down":"7xo-BCAjMiM",
   "The Maytals – 54-46 (That's My Number)":"joxAQs2DHNU"
