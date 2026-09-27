@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://corecycletune.github.io/DoYouKnowSkaMusic/sitemap.xml
