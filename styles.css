@@ -295,3 +295,42 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   .first-listen-player-head{display:block}
   .first-listen-player-head a{display:inline-block;margin-top:.25rem}
 }
+
+/* site-wide inline YouTube listening */
+.inline-youtube-player{
+  width:100%;
+  margin:1rem 0 0;
+  border:2px solid var(--ink);
+  background:var(--paper2);
+  box-shadow:3px 3px 0 rgba(38,35,29,.35);
+}
+.inline-youtube-player[hidden]{display:none}
+.inline-youtube-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:.75rem;
+  padding:.55rem .7rem;
+  border-bottom:1px dotted var(--brown);
+  font:800 .75rem/1.4 monospace;
+}
+.inline-youtube-close{
+  border:0;
+  background:transparent;
+  color:var(--ink);
+  font:900 1.35rem/1 monospace;
+  cursor:pointer;
+}
+.inline-youtube-player iframe,
+.first-listen-player iframe{
+  display:block;
+  width:100%;
+  min-height:220px;
+  border:0;
+  background:#000;
+}
+.inline-youtube-pending{padding:.8rem 1rem;margin:0!important;font-size:.85rem!important}
+.youtube-links a{cursor:pointer}
+@media(max-width:720px){
+  .inline-youtube-player iframe,.first-listen-player iframe{min-height:200px;height:200px}
+}
