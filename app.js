@@ -125,3 +125,27 @@ document.querySelectorAll("[data-filter]").forEach(btn=>{
 document.querySelectorAll("[data-jump]").forEach(btn=>{
   btn.addEventListener("click",()=>document.getElementById(btn.dataset.jump)?.scrollIntoView({behavior:"smooth"}));
 });
+
+document.querySelectorAll(".inline-listen").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const host=document.querySelector("#firstListenPlayer");
+    if(!host)return;
+    const id=btn.dataset.video;
+    const title=btn.dataset.title||"YouTube";
+    host.hidden=false;
+    host.innerHTML=`
+      <div class="first-listen-player-head">
+        <strong>${title}</strong>
+        <a href="https://www.youtube.com/watch?v=${encodeURIComponent(id)}" target="_blank" rel="noopener">YouTubeで開く ↗</a>
+      </div>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1"
+        title="${title}"
+        loading="lazy"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    `;
+    document.querySelectorAll(".inline-listen").forEach(b=>b.classList.toggle("active",b===btn));
+  });
+});
