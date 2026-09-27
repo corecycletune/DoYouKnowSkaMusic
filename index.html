@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>do you know ska music?</title>
-  <meta name="description" content="SKAって何？ ジャマイカからRocksteady、Reggae、Dub、2 Tone、Third Wave、日本のSKAまで。音を聴きながら辿るSKA音楽史。">
+  <meta name="description" content="SKAって何？ ジャマイカからRocksteady、Reggae、Dub、Dancehall、2 Tone、Third Wave、日本のSKAまで。音を聴きながら辿るSKA音楽史。">
   <meta name="theme-color" content="#e9ddbd">
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -34,7 +34,7 @@
         <p class="eyebrow">SKA BEGINNER'S ENTRANCE</p>
         <h2>SKAって、結局なんなん？</h2>
         <p class="lead">スカパラから来た人。パンクから来た人。レゲエから遡ってきた人。とりあえず全員ここから。</p>
-        <p>ざっくり言えば、SKAは1950年代末〜60年代初頭のジャマイカで形になった音楽。けれど話はそこで終わりません。Rocksteady、Reggae、Dubへつながり、海を渡った英国では2 Toneが生まれ、さらに米国、日本へ。</p>
+        <p>ざっくり言えば、SKAは1950年代末〜60年代初頭のジャマイカで形になった音楽。そこからRocksteady、Reggae、Dub、Dancehallへ。海を渡れば2 ToneやThird Waveへ。一本の線じゃなく、何本も枝が伸びていきます。</p>
         <div class="button-row">
           <a class="button" href="./articles/what-is-ska.html">まず5分でSKAを知る →</a>
           <button class="button ghost" data-jump="timeline">年表から掘る</button>
@@ -55,18 +55,21 @@
     <section id="timeline" class="section">
       <div class="section-head">
         <p class="eyebrow">INTERACTIVE HISTORY</p>
-        <h2>音楽史を、一本道にしない。</h2>
-        <p>ジャマイカ、英国、アメリカ、日本。音楽と人の移動と社会の出来事を、同じ時間軸で。</p>
+        <h2>SKAから、今のジャマイカまで。</h2>
+        <p>ジャンルの台頭を背骨にして、ジャマイカ、英国、アメリカ、日本へ枝分かれしていく流れを見る。</p>
       </div>
 
       <div class="timeline-tools" role="group" aria-label="年表フィルタ">
         <button class="chip active" data-filter="all">ALL</button>
         <button class="chip" data-filter="jamaica">JAMAICA</button>
+        <button class="chip" data-filter="ska">SKA</button>
+        <button class="chip" data-filter="roots">ROOTS</button>
+        <button class="chip" data-filter="dub">DUB</button>
+        <button class="chip" data-filter="dancehall">DANCEHALL</button>
+        <button class="chip" data-filter="modern">NOW</button>
         <button class="chip" data-filter="uk">UK</button>
         <button class="chip" data-filter="usa">USA</button>
         <button class="chip" data-filter="japan">JAPAN</button>
-        <button class="chip" data-filter="dub">DUB</button>
-        <button class="chip" data-filter="society">SOCIETY</button>
       </div>
 
       <div id="timelineList" class="timeline-list" aria-live="polite"></div>
