@@ -192,3 +192,29 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   .lineage-popover h3{font-size:1.1rem}
   .lineage-popover p{font-size:.8rem}
 }
+
+/* encyclopedia / entity pages */
+.entity-article p a:not(.button):not(.back),
+.article-shell p a:not(.button):not(.back){
+  text-decoration:underline;
+  text-decoration-style:dotted;
+  text-decoration-thickness:1.5px;
+  text-underline-offset:3px;
+  text-decoration-color:var(--red);
+}
+.entity-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.4rem 0 2rem}
+.entity-grid article{border:2px solid var(--ink);background:var(--paper2);padding:1rem 1.05rem;box-shadow:3px 3px 0 rgba(38,35,29,.22)}
+.entity-grid h3{margin:.2rem 0 .55rem;font:900 1.25rem Georgia,serif}
+.entity-grid p{font-size:.94rem;margin:.25rem 0}
+.listen-box,.related-box{margin:3rem 0 1.5rem;padding:1.2rem;border:2px solid var(--ink);background:var(--paper3);box-shadow:3px 3px 0 var(--brown)}
+.listen-box h2,.related-box h2{margin-top:.2rem!important}
+.youtube-links,.related-links{display:flex;flex-wrap:wrap;gap:.6rem}
+.youtube-links a{display:inline-block;background:var(--red);color:#fff;border:2px solid var(--ink);padding:.5rem .7rem;font-weight:900;text-decoration:none!important;box-shadow:2px 2px 0 var(--ink)}
+.youtube-links a:hover{background:var(--yellow);color:var(--ink)}
+.related-links a{display:inline-block;background:var(--paper2);border:1.5px solid var(--ink);padding:.38rem .58rem;font:800 .82rem monospace;text-decoration:none!important}
+.related-links a:hover{background:var(--green);color:#fff}
+.encyclopedia-links{margin-bottom:2.2rem}
+@media(max-width:720px){
+  .entity-grid{grid-template-columns:1fr}
+  .youtube-links a,.related-links a{width:100%}
+}
