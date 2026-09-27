@@ -72,6 +72,14 @@
         <button class="chip" data-filter="japan">JAPAN</button>
       </div>
 
+      <div class="lineage-shell">
+        <div class="lineage-scroll" aria-label="ジャンルのつながりを示す年表">
+          <svg id="lineageSvg" class="lineage-svg" viewBox="0 0 900 1040" role="img" aria-label="SKAから現代ジャマイカ音楽までのジャンル系譜"></svg>
+        </div>
+        <div id="lineageDetail" class="lineage-detail" hidden></div>
+      </div>
+
+      <h3 class="timeline-subhead">年ごとの流れ</h3>
       <div id="timelineList" class="timeline-list" aria-live="polite"></div>
     </section>
 
@@ -152,6 +160,7 @@
   </footer>
 
   <script src="./timeline-data.js"></script>
+  <script src="./lineage-data.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
