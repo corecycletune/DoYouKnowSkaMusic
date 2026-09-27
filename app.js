@@ -127,26 +127,95 @@ document.querySelectorAll("[data-jump]").forEach(btn=>{
   btn.addEventListener("click",()=>document.getElementById(btn.dataset.jump)?.scrollIntoView({behavior:"smooth"}));
 });
 
+
+const YT_KNOWN = {
+  "The Skatalites – Guns of Navarone":"DTol7Wm_NiQ",
+  "Prince Buster – One Step Beyond":"-BaMA06WRaw",
+  "Desmond Dekker & The Aces – Israelites":"mxtfdH3-TQ4",
+  "The Wailing Wailers – Simmer Down":"7xo-BCAjMiM",
+  "The Maytals – 54-46 (That's My Number)":"joxAQs2DHNU"
+};
+
+function youtubeIdFromUrl(raw){
+  try{
+    const u=new URL(raw,location.href);
+    if(u.hostname.includes("youtu.be")) return u.pathname.replace(/^\//,"").split("/")[0]||null;
+    if(u.hostname.includes("youtube.com") && u.pathname==="/watch") return u.searchParams.get("v");
+    if(u.hostname.includes("youtube.com") && u.pathname.startsWith("/embed/")) return u.pathname.split("/embed/")[1]?.split("/")[0]||null;
+  }catch(_){}
+  return null;
+}
+
+function ensureInlinePlayer(anchor){
+  const section=anchor.closest(".listen-box") || anchor.closest(".listen-card") || anchor.parentElement;
+  let host=section?.querySelector(".inline-youtube-player");
+  if(!host && section){
+    host=document.createElement("div");
+    host.className="inline-youtube-player";
+    section.appendChild(host);
+  }
+  return host;
+}
+
+function playInlineYouTube(trigger,id,title){
+  const host=trigger.closest(".listen-card")?.querySelector("#firstListenPlayer") || ensureInlinePlayer(trigger);
+  if(!host||!id)return;
+  host.hidden=false;
+  host.innerHTML=`
+    <div class="inline-youtube-head">
+      <strong>${title}</strong>
+      <button class="inline-youtube-close" type="button" aria-label="プレイヤーを閉じる">×</button>
+    </div>
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1"
+      title="${title}"
+      loading="lazy"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  `;
+  host.querySelector(".inline-youtube-close")?.addEventListener("click",()=>{
+    host.innerHTML="";
+    host.hidden=true;
+  });
+  host.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
 document.querySelectorAll(".inline-listen").forEach(btn=>{
   btn.addEventListener("click",()=>{
-    const host=document.querySelector("#firstListenPlayer");
-    if(!host)return;
     const id=btn.dataset.video;
     const title=btn.dataset.title||"YouTube";
+    playInlineYouTube(btn,id,title);
+    document.querySelectorAll(".inline-listen").forEach(b=>b.classList.toggle("active",b===btn));
+  });
+});
+
+// All listening links stay inside the site. Direct YouTube watch URLs are embedded.
+// Legacy search links never launch the YouTube app; they are replaced as representative IDs are curated.
+document.querySelectorAll(".youtube-links a[href*='youtube.com'], .youtube-links a[href*='youtu.be']").forEach(a=>{
+  a.removeAttribute("target");
+  a.removeAttribute("rel");
+  a.addEventListener("click",e=>{
+    e.preventDefault();
+    const cleanLabel=a.textContent.replace(/\s*↗\s*$/,"").trim();
+    const id=a.dataset.video || youtubeIdFromUrl(a.href) || YT_KNOWN[cleanLabel] || null;
+    if(id){
+      playInlineYouTube(a,id,cleanLabel);
+      return;
+    }
+    const host=ensureInlinePlayer(a);
+    if(!host)return;
     host.hidden=false;
     host.innerHTML=`
-      <div class="first-listen-player-head">
-        <strong>${title}</strong>
-        <a href="https://www.youtube.com/watch?v=${encodeURIComponent(id)}" target="_blank" rel="noopener">YouTubeで開く ↗</a>
+      <div class="inline-youtube-head">
+        <strong>${cleanLabel}</strong>
+        <button class="inline-youtube-close" type="button" aria-label="閉じる">×</button>
       </div>
-      <iframe
-        src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1"
-        title="${title}"
-        loading="lazy"
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowfullscreen
-        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <p class="inline-youtube-pending">この試聴リンクは代表動画を選定中です。YouTubeアプリには移動しません。</p>
     `;
-    document.querySelectorAll(".inline-listen").forEach(b=>b.classList.toggle("active",b===btn));
+    host.querySelector(".inline-youtube-close")?.addEventListener("click",()=>{
+      host.innerHTML="";
+      host.hidden=true;
+    });
   });
 });
