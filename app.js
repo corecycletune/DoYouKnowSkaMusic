@@ -1,3 +1,27 @@
+const SITE_BASE="/DoYouKnowSkaMusic/";
+(function injectSitebar(){
+  if(document.querySelector(".masthead") || document.querySelector(".sitebar")) return;
+  const bar=document.createElement("header");
+  bar.className="sitebar";
+  bar.innerHTML=`
+    <div class="sitebar-inner">
+      <a class="site-logo" href="${SITE_BASE}" aria-label="Do you know ska music? HOME">
+        <span class="site-logo-do">Do</span> you know <span class="site-logo-ska">ska</span> music?
+      </a>
+      <nav class="sitebar-nav" aria-label="サイトナビ">
+        <a href="${SITE_BASE}">HOME</a>
+        <a href="${SITE_BASE}#timeline">HISTORY</a>
+        <a href="${SITE_BASE}genres/ska.html">GENRES</a>
+        <a href="${SITE_BASE}genres/japan-ska.html">JAPAN</a>
+        <a href="${SITE_BASE}#listen">LISTEN</a>
+      </nav>
+    </div>
+  `;
+  const checker=document.body.querySelector(":scope > .checker");
+  if(checker) checker.insertAdjacentElement("afterend",bar);
+  else document.body.prepend(bar);
+})();
+
 const data=(window.SKA_TIMELINE||[]).slice().sort((a,b)=>a.year-b.year);
 const list=document.querySelector("#timelineList");
 const lineage=window.SKA_LINEAGE||{nodes:[],edges:[]};
