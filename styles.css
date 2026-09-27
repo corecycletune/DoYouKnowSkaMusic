@@ -118,3 +118,12 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   .year{font-size:1rem}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button:hover{transform:none}}
+
+.tag.ska{background:#d5c98f}
+.tag.rocksteady{background:#c9b679}
+.tag.reggae{background:#b7c69b}
+.tag.roots{background:#9fb88c}
+.tag.dancehall{background:#dfb186}
+.tag.digital{background:#d8a36f}
+.tag.ragga{background:#c99073}
+.tag.modern{background:#b6a6c3}
