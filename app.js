@@ -67,8 +67,7 @@ function renderLineage(){
       <text x="135" y="28" text-anchor="middle">ROOTS</text>
       <text x="340" y="28" text-anchor="middle">JAMAICA</text>
       <text x="515" y="28" text-anchor="middle">DUB / FUSION</text>
-      <text x="765" y="28" text-anchor="middle">SKA FAMILY</text>
-      <text x="995" y="28" text-anchor="middle">JAPAN</text>
+      <text x="800" y="28" text-anchor="middle">SKA FAMILY</text>
     </g>`;
   const grid=years.map(y=>`
     <g class="lineage-year"><text x="8" y="${mapY(y)+4}">${y}</text>
@@ -123,7 +122,12 @@ function selectLineage(id){
 }
 
 function applyLineageFilter(filter){
-  const showSkaDetail=filter==="ska";
+  const regionalNote=document.querySelector("#lineageRegionalNote");
+  const shell=document.querySelector(".lineage-shell");
+  const legend=document.querySelector(".lineage-legend");
+  if(regionalNote)regionalNote.hidden=filter!=="japan";
+  if(shell)shell.hidden=filter==="japan";
+  if(legend)legend.hidden=filter==="japan";
   const shown=new Set();
   document.querySelectorAll(".lineage-node").forEach(el=>{
     const tags=(el.dataset.tags||"").split(" ");
