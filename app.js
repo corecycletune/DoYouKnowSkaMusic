@@ -195,27 +195,18 @@ document.querySelectorAll(".inline-listen").forEach(btn=>{
 document.querySelectorAll(".youtube-links a[href*='youtube.com'], .youtube-links a[href*='youtu.be']").forEach(a=>{
   a.removeAttribute("target");
   a.removeAttribute("rel");
+  const initialLabel=a.textContent.replace(/\s*↗\s*$/,"").trim();
+  const initialId=a.dataset.video || youtubeIdFromUrl(a.href) || YT_KNOWN[initialLabel] || null;
+  a.textContent=initialLabel;
+  if(!initialId){ a.hidden=true; return; }
   a.addEventListener("click",e=>{
     e.preventDefault();
     const cleanLabel=a.textContent.replace(/\s*↗\s*$/,"").trim();
     const id=a.dataset.video || youtubeIdFromUrl(a.href) || YT_KNOWN[cleanLabel] || null;
+    a.textContent=cleanLabel;
     if(id){
       playInlineYouTube(a,id,cleanLabel);
       return;
     }
-    const host=ensureInlinePlayer(a);
-    if(!host)return;
-    host.hidden=false;
-    host.innerHTML=`
-      <div class="inline-youtube-head">
-        <strong>${cleanLabel}</strong>
-        <button class="inline-youtube-close" type="button" aria-label="閉じる">×</button>
-      </div>
-      <p class="inline-youtube-pending">この試聴リンクは代表動画を選定中です。YouTubeアプリには移動しません。</p>
-    `;
-    host.querySelector(".inline-youtube-close")?.addEventListener("click",()=>{
-      host.innerHTML="";
-      host.hidden=true;
-    });
   });
 });
