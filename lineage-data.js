@@ -3,7 +3,7 @@ window.SKA_LINEAGE = {
   height: 1260,
   nodes: [
     {id:"mento-rnb", label:"Mento / R&B", year:1952, x:340, tags:["jamaica"], summary:"Mento、米国R&B、サウンドシステム文化が、のちのSKAを生む土台になった。", article:"./genres/mento-rnb.html"},
-    {id:"ska", label:"SKA", year:1961, x:340, tags:["jamaica","ska"], summary:"1960年代初頭のジャマイカで形になった、速く跳ねるオフビートの音楽。", article:"./genres/ska.html"},
+    {id:"ska", label:"SKA", year:1961, x:340, tags:["jamaica","ska"], summary:"1960年代初頭のジャマイカで形になったSKA。後世にはOriginal Ska / Jamaican Ska / First-wave Skaとも呼び分けられる。", article:"./genres/ska.html"},
     {id:"rocksteady", label:"Rocksteady", year:1966, x:340, tags:["jamaica","rocksteady"], summary:"SKAよりテンポが落ち、ベースとヴォーカルが前に出た短く濃い時代。", article:"./genres/rocksteady.html"},
     {id:"reggae", label:"Early Reggae", year:1968, x:340, tags:["jamaica","reggae"], summary:"Rocksteadyからリズムが変化し、Reggaeと呼ばれる新しいスタイルが定着していく。", article:"./genres/reggae.html"},
     {id:"roots", label:"Roots Reggae", year:1971, x:135, tags:["jamaica","roots"], summary:"Rastafari、社会、政治、アフリカ意識を強く打ち出した70年代の大きな流れ。", article:"./genres/roots-reggae.html"},
