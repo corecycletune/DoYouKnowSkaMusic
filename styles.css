@@ -252,3 +252,9 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   .archive-photo{margin:1.6rem -.25rem 2rem;padding:.4rem;transform:none!important}
   .archive-photo figcaption{font-size:.66rem}
 }
+.first-listen-links{list-style:none;padding:0;margin:.8rem 0}
+.first-listen-links li{display:flex;align-items:center;justify-content:space-between;gap:.8rem;padding:.35rem 0;border-bottom:1px dotted var(--brown)}
+.first-listen-links li:last-child{border-bottom:0}
+.first-listen-links li>a:first-child{font-weight:900;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.listen-now{font:800 .68rem monospace;text-decoration:none!important;white-space:nowrap;color:var(--red)}
+.listen-now:hover{color:var(--green)}
