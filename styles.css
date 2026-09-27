@@ -1,0 +1,100 @@
+/* do you know ska music? — retro skin, modern bones */
+:root{
+  --paper:#efe7d0;
+  --paper2:#f8f3e7;
+  --ink:#171717;
+  --red:#b32121;
+  --blue:#1a3d58;
+  --muted:#6e6759;
+  --line:#222;
+  --shadow:5px 5px 0 #171717;
+  --max:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(0,0,0,.035) 0 1px, transparent 1.5px) 0 0/11px 11px,
+    var(--paper);
+  color:var(--ink);
+  font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  line-height:1.8;
+}
+a{color:inherit}
+.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.5rem;z-index:99}
+.masthead{border-bottom:4px solid var(--ink);background:var(--paper2)}
+.checker{height:18px;background:conic-gradient(#111 25%,#fff 0 50%,#111 0 75%,#fff 0) 0 0/18px 18px}
+.masthead-inner{max-width:var(--max);margin:auto;padding:2.4rem 1.2rem 1.3rem}
+.kicker,.eyebrow{font-family:monospace;font-weight:800;letter-spacing:.15em;font-size:.76rem}
+.masthead h1{margin:.1rem 0;font:900 clamp(2.4rem,8vw,6.5rem)/.9 Georgia,"Times New Roman",serif;letter-spacing:-.055em;text-transform:lowercase}
+.masthead h1 span{color:var(--red);text-decoration:underline;text-decoration-thickness:6px;text-underline-offset:6px}
+.tagline{max-width:720px;font-weight:700}
+nav{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.4rem;font-family:monospace;font-weight:800}
+nav a{background:var(--ink);color:#fff;padding:.35rem .6rem;text-decoration:none;border:2px solid var(--ink)}
+nav a:hover{background:#fff;color:var(--ink)}
+main{max-width:var(--max);margin:auto;padding:0 1.2rem}
+.section,.hero{padding:4.5rem 0;border-bottom:3px double var(--ink)}
+.paper{position:relative}
+.hero{display:grid;grid-template-columns:1.5fr .7fr;gap:3rem;align-items:center}
+.hero h2,.section h2{font:900 clamp(2rem,5vw,4.2rem)/1.05 Georgia,"Times New Roman",serif;margin:.25rem 0 1rem}
+.lead{font-size:1.25rem;font-weight:700}
+.sticky-note{background:#fff1a6;border:2px solid var(--ink);padding:1.4rem;transform:rotate(1.2deg);box-shadow:var(--shadow)}
+.button-row{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.6rem}
+.button{appearance:none;border:2px solid var(--ink);background:var(--red);color:#fff;padding:.65rem .9rem;text-decoration:none;font-weight:900;box-shadow:3px 3px 0 var(--ink);cursor:pointer;font:inherit}
+.button:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.button.ghost{background:transparent;color:var(--ink)}
+.section-head{max-width:800px}
+.timeline-tools{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.5rem 0}
+.chip{border:2px solid var(--ink);background:var(--paper2);padding:.35rem .7rem;font-family:monospace;font-weight:800;cursor:pointer}
+.chip.active,.chip:hover{background:var(--ink);color:#fff}
+.timeline-list{position:relative;margin-top:2rem}
+.timeline-list:before{content:"";position:absolute;left:92px;top:0;bottom:0;border-left:4px solid var(--ink)}
+.timeline-item{display:grid;grid-template-columns:75px 1fr;gap:2rem;position:relative;margin:0 0 1.2rem}
+.timeline-item:after{content:"";position:absolute;left:86px;top:1.25rem;width:16px;height:16px;border:3px solid var(--ink);background:var(--paper);border-radius:50%}
+.year{font:900 1.2rem/1 Georgia,serif;padding-top:1rem}
+.timeline-card{background:var(--paper2);border:2px solid var(--ink);padding:1rem 1.1rem;box-shadow:3px 3px 0 rgba(0,0,0,.25)}
+.timeline-card h3{margin:0;font-size:1.2rem}
+.meta{display:flex;gap:.35rem;flex-wrap:wrap;margin-bottom:.45rem}
+.tag{font:700 .7rem/1 monospace;border:1px solid var(--ink);padding:.22rem .35rem}
+.tag.jamaica{background:#d8e7c7}.tag.uk{background:#d7e3f0}.tag.usa{background:#f3d8d8}.tag.japan{background:#f3e3c5}.tag.dub{background:#dad2eb}.tag.society{background:#ddd}
+.mini-note{font-size:.85rem;color:var(--muted)}
+.record-grid,.watch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.record-card,.watch-grid article{position:relative;border:2px solid var(--ink);background:#fff;padding:1.4rem;box-shadow:var(--shadow)}
+.record-no{position:absolute;right:.8rem;top:.5rem;font:900 2rem/1 Georgia,serif;color:#bbb}
+.record-card h3,.watch-grid h3{font:900 1.35rem Georgia,serif}
+.record-card a,.text-link{font-weight:900;text-decoration-thickness:2px;text-underline-offset:4px}
+.branch{display:flex;align-items:center;justify-content:center;gap:.55rem;flex-wrap:wrap;margin:2rem auto;max-width:900px}
+.branch>div:not(.branch-split){border:2px solid var(--ink);padding:.55rem .8rem;background:var(--paper2);font-weight:900}
+.branch .accent{background:var(--red)!important;color:#fff}
+.branch-split{display:flex!important;gap:.4rem;flex-wrap:wrap;border:0!important;background:transparent!important;padding:0!important}
+.branch-split span{border:1px dashed var(--ink);padding:.4rem .55rem;font:700 .75rem monospace}
+.center{text-align:center}.columns{columns:2;column-gap:3rem}.columns p{margin-top:0}
+footer{margin-top:4rem;border-top:4px solid var(--ink);text-align:center;background:var(--paper2);padding-bottom:2rem}
+footer p{padding:0 1rem}.tiny{font: .75rem monospace;color:var(--muted)}
+
+.article-shell{max-width:850px;margin:auto;padding:2rem 1.2rem 5rem}
+.article-shell .back{font:700 .8rem monospace}
+.article-shell h1{font:900 clamp(2.3rem,6vw,5rem)/1 Georgia,serif;letter-spacing:-.03em}
+.article-shell h2{font:900 2rem/1.2 Georgia,serif;margin-top:3rem;border-bottom:4px double var(--ink);padding-bottom:.4rem}
+.article-shell h3{font:900 1.3rem Georgia,serif}
+.article-shell p{font-size:1.04rem}
+.article-shell .dek{font-size:1.35rem;font-weight:700}
+.callout{border:2px solid var(--ink);background:#fff1a6;padding:1rem 1.2rem;margin:2rem 0;box-shadow:4px 4px 0 var(--ink)}
+.source-box{margin-top:3rem;border-top:2px solid var(--ink);padding-top:1rem;font-size:.85rem;color:#4c473e}
+.source-box li{margin:.5rem 0}
+.source-box a{word-break:break-all}
+
+@media (max-width:720px){
+  .masthead-inner{padding-top:1.6rem}
+  .hero{grid-template-columns:1fr;gap:1.4rem}
+  .sticky-note{transform:none}
+  .section,.hero{padding:3rem 0}
+  .record-grid,.watch-grid{grid-template-columns:1fr}
+  .timeline-list:before{left:58px}
+  .timeline-item{grid-template-columns:45px 1fr;gap:1.4rem}
+  .timeline-item:after{left:52px}
+  .year{font-size:1rem}
+  .columns{columns:1}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button:hover{transform:none}}
