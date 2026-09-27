@@ -43,7 +43,7 @@ function render(filter="all"){
 }
 
 // Give crowded late-1970s to early-1990s years more room than quiet decades.
-const timeStops=[[1950,100],[1960,250],[1970,445],[1980,710],[1990,1090],[2000,1320],[2010,1500],[2020,1680],[2026,1790]];
+const timeStops=[[1950,100],[1960,250],[1970,500],[1980,750],[1990,1130],[2000,1360],[2010,1540],[2020,1720],[2026,1830]];
 function mapY(year){
   for(let i=1;i<timeStops.length;i++){
     const [endYear,endY]=timeStops[i];
