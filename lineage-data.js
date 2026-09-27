@@ -1,0 +1,43 @@
+window.SKA_LINEAGE = {
+  nodes: [
+    {id:"mento-rnb", label:"Mento / R&B", year:1950, x:120, tags:["jamaica"], summary:"Mento、米国R&B、サウンドシステム文化が、のちのSKAを生む土台になった。", article:"./genres/mento-rnb.html"},
+    {id:"ska", label:"SKA", year:1961, x:310, tags:["jamaica","ska"], summary:"1960年代初頭のジャマイカで形になった、速く跳ねるオフビートの音楽。", article:"./genres/ska.html"},
+    {id:"rocksteady", label:"Rocksteady", year:1966, x:310, tags:["jamaica","rocksteady"], summary:"SKAよりテンポが落ち、ベースとヴォーカルが前に出た短く濃い時代。", article:"./genres/rocksteady.html"},
+    {id:"reggae", label:"Early Reggae", year:1968, x:310, tags:["jamaica","reggae"], summary:"Rocksteadyからリズムが変化し、Reggaeと呼ばれる新しいスタイルが定着していく。", article:"./genres/reggae.html"},
+    {id:"roots", label:"Roots Reggae", year:1971, x:250, tags:["jamaica","roots"], summary:"Rastafari、社会、政治、アフリカ意識を強く打ち出した70年代の大きな流れ。", article:"./genres/roots-reggae.html"},
+    {id:"dub", label:"Dub", year:1972, x:470, tags:["jamaica","dub"], summary:"ミキサー、エコー、リバーブを使い、録音そのものを再構成する音楽。スタジオが楽器になった。", article:"./genres/dub.html"},
+    {id:"dancehall", label:"Dancehall", year:1978, x:310, tags:["jamaica","dancehall"], summary:"サウンドシステムとダンスの現場を軸に、Deejayの存在感がさらに強くなった時代。", article:"./genres/dancehall.html"},
+    {id:"two-tone", label:"2 Tone", year:1979, x:650, tags:["uk","ska"], summary:"英国でSKA / RocksteadyとPunk / New Waveが接続。The Specialsらが新しいSKAを鳴らした。", article:"./genres/two-tone.html"},
+    {id:"digital", label:"Digital Dancehall", year:1985, x:310, tags:["jamaica","dancehall","digital"], summary:"Sleng Tengを象徴に、打ち込み主体のRiddimが主流化。制作方法そのものが変わった。", article:"./genres/digital-dancehall.html"},
+    {id:"ragga", label:"Ragga", year:1988, x:420, tags:["jamaica","dancehall","ragga"], summary:"デジタル化したDancehallがさらに硬質化。DeejayやSingjayのスタイルも大きく広がった。", article:"./genres/ragga.html"},
+    {id:"third-wave", label:"Third Wave Ska", year:1990, x:720, tags:["usa","ska"], summary:"米国を中心にSKAとPunkが大きく接続し、90年代に世界へ広がった。", article:"./genres/third-wave.html"},
+    {id:"reggae-fusion", label:"Reggae Fusion", year:2000, x:365, tags:["jamaica","dancehall"], summary:"Dancehallを軸にHip-Hop、R&B、Popとの融合が進み、世界的なヒットへつながった。", article:"./genres/reggae-fusion.html"},
+    {id:"reggae-revival", label:"Reggae Revival", year:2011, x:190, tags:["jamaica","roots","modern"], summary:"Roots Reggaeの思想やバンドサウンドを、若い世代が現代の感覚で再接続した流れ。", article:"./genres/reggae-revival.html"},
+    {id:"trap-dancehall", label:"Trap Dancehall", year:2016, x:440, tags:["jamaica","dancehall","modern"], summary:"Trapの808やハイハット、暗い音像を取り込んだ現代Dancehallの大きな流れ。", article:"./genres/trap-dancehall.html"},
+    {id:"japan", label:"Japan Ska / Dub", year:1985, x:825, tags:["japan","dub"], summary:"日本でもSKA、Reggae、Dubがライブ、クラブ、バンド文化の中で独自に根付いていった。", article:"./genres/japan-ska-dub.html"},
+    {id:"modern", label:"Jamaica Now", year:2024, x:310, tags:["jamaica","dancehall","modern"], summary:"Dancehall、Trap Dancehall、現代Roots、Pop、Hip-Hop、Afrobeatsとの往来が同時進行している。", article:"./genres/jamaica-now.html"}
+  ],
+  edges: [
+    ["mento-rnb","ska"],
+    ["ska","rocksteady"],
+    ["rocksteady","reggae"],
+    ["reggae","roots"],
+    ["reggae","dub"],
+    ["reggae","dancehall"],
+    ["ska","two-tone"],
+    ["rocksteady","two-tone"],
+    ["dancehall","digital"],
+    ["digital","ragga"],
+    ["two-tone","third-wave"],
+    ["dancehall","reggae-fusion"],
+    ["roots","reggae-revival"],
+    ["digital","trap-dancehall"],
+    ["ragga","trap-dancehall"],
+    ["reggae-fusion","trap-dancehall"],
+    ["reggae-revival","modern"],
+    ["trap-dancehall","modern"],
+    ["reggae-fusion","modern"],
+    ["dub","japan"],
+    ["two-tone","japan"]
+  ]
+};
