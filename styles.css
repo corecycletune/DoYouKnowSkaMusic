@@ -40,7 +40,7 @@ a{color:inherit}
 }
 .masthead-inner{max-width:var(--max);margin:auto;padding:2.2rem 1.2rem 1.35rem}
 .kicker,.eyebrow{font-family:monospace;font-weight:800;letter-spacing:.14em;font-size:.76rem;color:var(--brown)}
-.masthead h1{margin:.1rem 0;font:900 clamp(2.4rem,8vw,6.5rem)/.9 Georgia,"Times New Roman",serif;letter-spacing:-.055em;text-transform:lowercase}
+.masthead h1{margin:.1rem 0;font:900 clamp(2.4rem,8vw,6.5rem)/.9 Georgia,"Times New Roman",serif;letter-spacing:-.055em;text-transform:none}
 .masthead h1 span{color:var(--green);text-decoration:underline;text-decoration-thickness:5px;text-decoration-color:var(--yellow);text-underline-offset:7px}
 .tagline{max-width:720px;font-weight:700}
 nav{display:flex;gap:.55rem;flex-wrap:wrap;margin-top:1.35rem;font-family:monospace;font-weight:800}
