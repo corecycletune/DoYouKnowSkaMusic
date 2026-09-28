@@ -1,0 +1,264 @@
+{
+  "HNBCVM4KbUM": {
+    "title": "Bob Marley & The Wailers – Three Little Birds",
+    "source": "https://www.bobmarley.com/videos/",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified",
+    "browser_observation": "公開ページでクリック→埋め込み枠は開くが映像は黒いまま。再生成功も動画削除も判定できない。"
+  },
+  "yv5xonFSC4c": {
+    "title": "Bob Marley & The Wailers – Redemption Song",
+    "source": "https://www.universal-music.co.jp/bob-marley/news/2020-02-06/",
+    "identity_evidence": "label_release",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "2bmnHHz6jq8": {
+    "title": "ASOUND – オリジナル",
+    "source": "https://www.sonymusic.co.jp/artist/ASOUND/info/554573",
+    "identity_evidence": "label_release",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "5drQWvjMchs": {
+    "title": "ASOUND – Studio Session",
+    "source": "https://www.sonymusic.co.jp/artist/ASOUND/info/581052",
+    "identity_evidence": "label_release",
+    "checked": "2026-09-29",
+    "kind": "performance_collection",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "3MtcGmFgXdE": {
+    "title": "KEMURI – PMA（SKA BRAVO Version）",
+    "source": "https://kemuri-official.com/movies/categories/youtube/page/2",
+    "identity_evidence": "artist_site_video_link",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "5Bh7vdVRF2Q": {
+    "title": "KEMURI – I am proud",
+    "source": "https://kemuri-official.com/movies/categories/youtube/page/2",
+    "identity_evidence": "artist_site_video_link",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "6LPHL6zG5Ds": {
+    "title": "Catbite – Call Your Bluff",
+    "source": "https://www.youtube.com/watch?v=6LPHL6zG5Ds",
+    "identity_evidence": "label_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "Nphl0iPQx2g": {
+    "title": "Operation Ivy – Sound System（2007 Remaster）",
+    "source": "https://www.youtube.com/watch?v=Nphl0iPQx2g",
+    "identity_evidence": "licensed_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "H2g8gwAtDbY": {
+    "title": "The Slackers – Wasted Days",
+    "source": "https://www.youtube.com/watch?v=H2g8gwAtDbY",
+    "identity_evidence": "label_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "8wFObFnp4fQ": {
+    "title": "東京スカパラダイスオーケストラ – Paradise Has No Border",
+    "source": "https://tokyoska.net/movie/",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "RbR88S2sruA": {
+    "title": "THE SKA FLAMES – Ocean Liner",
+    "source": "https://www.youtube.com/watch?v=RbR88S2sruA",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "JrKIH4vzaUM": {
+    "title": "ハンバート ハンバート × COOL WISE MAN – 23時59分（Short Ver.）",
+    "source": "https://www.universal-music.co.jp/humbert-humbert/news/2012-05-0523/",
+    "identity_evidence": "label_site_video_link",
+    "checked": "2026-09-29",
+    "kind": "short_version",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "gCfGQXRydsc": {
+    "title": "Ras Muhamad – Salam",
+    "source": "https://oneness-records.com/js_videos/ras-muhamad-salam/",
+    "identity_evidence": "label_release",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "VuYgICoMer8": {
+    "title": "The Ska Vengers – Frank Brazil",
+    "source": "https://www.youtube.com/watch?v=VuYgICoMer8",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "Sfyfn228i4A": {
+    "title": "TootArd – Musiqa",
+    "source": "https://www.youtube.com/watch?v=Sfyfn228i4A",
+    "identity_evidence": "licensed_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "d9ZsWR4unWY": {
+    "title": "Dub inc – Tout ce qu’ils veulent",
+    "source": "https://www.youtube.com/watch?v=d9ZsWR4unWY",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "6_u3c2Kmx_g": {
+    "title": "Tiken Jah Fakoly – Plus rien ne m’étonne",
+    "source": "https://www.youtube.com/watch?v=6_u3c2Kmx_g",
+    "identity_evidence": "licensed_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "Sk7N3dhzM1o": {
+    "title": "The Cat Empire – Hello",
+    "source": "https://www.youtube.com/watch?v=Sk7N3dhzM1o",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "tKabIXhoqGU": {
+    "title": "Dub FX – Love Someone（Bristolでの演奏）",
+    "source": "https://www.youtube.com/watch?v=tKabIXhoqGU",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "JtyCtksvSOg": {
+    "title": "Fat Freddy’s Drop – Wandering Eye",
+    "source": "https://www.youtube.com/watch?v=JtyCtksvSOg",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "tRmtL8yxcSA": {
+    "title": "Natiruts – Sorri, Sou Rei（ライブ）",
+    "source": "https://www.youtube.com/watch?v=tRmtL8yxcSA",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "wnMAwJ4KaPM": {
+    "title": "Ska Cubano – Babalu",
+    "source": "https://www.youtube.com/watch?v=wnMAwJ4KaPM",
+    "identity_evidence": "licensed_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "kqaadTlATqk": {
+    "title": "The Jolly Boys – Rehab",
+    "source": "https://www.youtube.com/watch?v=kqaadTlATqk",
+    "identity_evidence": "artist_video_metadata",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "ML18l_jCplY": {
+    "title": "Lord Kitchener – London Is the Place for Me",
+    "source": "https://video.link/w/ML18l_jCplY",
+    "identity_evidence": "third_party_metadata_only",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "GDstBkASId8": {
+    "title": "Christopher Ellis – Still Go A Dance",
+    "source": "https://linktr.ee/Ghettoyouthsintl",
+    "identity_evidence": "label_site_video_link",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "4FmvvZhrpCA": {
+    "title": "Christopher Ellis – Rub A Dub",
+    "source": "https://linktr.ee/Ghettoyouthsintl",
+    "identity_evidence": "label_site_video_link",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "YR5JjUC_jmY": {
+    "title": "MUTE BEAT – After the Rain",
+    "source": "https://www.youtube.com/watch?v=YR5JjUC_jmY",
+    "identity_evidence": "third_party_metadata_only",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "thJZHtrWYfg": {
+    "title": "Scientist – Dance of the Vampires",
+    "source": "https://www.youtube.com/watch?v=thJZHtrWYfg",
+    "identity_evidence": "third_party_metadata_only",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  },
+  "4dZky936vtU": {
+    "title": "Junior Murvin – Police & Thieves",
+    "source": "https://www.youtube.com/watch?v=4dZky936vtU",
+    "identity_evidence": "video_metadata_only",
+    "checked": "2026-09-29",
+    "kind": "song_candidate",
+    "playback": "unverified",
+    "japan_embedded_playback": "unverified"
+  }
+}

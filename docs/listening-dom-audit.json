@@ -6,35 +6,85 @@
       "file": "articles/documentary-films.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 17,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
       "file": "articles/global-reggae.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 15,
+      "controls": 8,
+      "ids": [
+        "VuYgICoMer8",
+        "Sk7N3dhzM1o",
+        "wnMAwJ4KaPM",
+        "gCfGQXRydsc",
+        "Sfyfn228i4A",
+        "d9ZsWR4unWY",
+        "6_u3c2Kmx_g",
+        "JtyCtksvSOg"
+      ],
+      "titles": [
+        "The Ska Vengers – Frank Brazil",
+        "The Cat Empire – Hello",
+        "Ska Cubano – Babalu",
+        "Ras Muhamad – Salam",
+        "TootArd – Musiqa",
+        "Dub inc – Tout ce qu’ils veulent",
+        "Tiken Jah Fakoly – Plus rien ne m’étonne",
+        "Fat Freddy’s Drop – Wandering Eye"
+      ],
+      "controlsBefore": 8,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 17,
       "playback": "unverified"
     },
     {
       "file": "articles/jamaica-to-two-tone.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 4,
+      "controls": 1,
+      "ids": [
+        "Sn4ntpOXE6w"
+      ],
+      "titles": [
+        "The Specials – Gangsters"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 2,
       "playback": "unverified"
     },
     {
       "file": "articles/japanese-authentic-ska.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 22,
+      "controls": 1,
+      "ids": [
+        "RbR88S2sruA"
+      ],
+      "titles": [
+        "THE SKA FLAMES – Ocean Liner"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
       "file": "articles/japanese-dub.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 23,
+      "controls": 1,
+      "ids": [
+        "YR5JjUC_jmY"
+      ],
+      "titles": [
+        "MUTE BEAT – After the Rain"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 20,
       "playback": "unverified"
     },
     {
@@ -43,7 +93,13 @@
       "ids": [
         "pInSkxO_4G0"
       ],
-      "internalLinks": 55,
+      "titles": [
+        "AGE OF KID – The Moment (official music video)"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
@@ -52,7 +108,13 @@
       "ids": [
         "ZD29iWW94yg"
       ],
-      "internalLinks": 23,
+      "titles": [
+        "Fishmans – ナイトクルージング"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 9,
       "playback": "unverified"
     },
     {
@@ -62,14 +124,153 @@
         "Sn4ntpOXE6w",
         "RZ2oXzrnti4"
       ],
-      "internalLinks": 16,
+      "titles": [
+        "The Specials – Gangsters",
+        "The Specials – Ghost Town"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 12,
       "playback": "unverified"
     },
     {
       "file": "articles/what-is-ska.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 7,
+      "controls": 1,
+      "ids": [
+        "DTol7Wm_NiQ"
+      ],
+      "titles": [
+        "The Skatalites – Guns of Navarone"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-africa.html",
+      "controls": 1,
+      "ids": [
+        "6_u3c2Kmx_g"
+      ],
+      "titles": [
+        "Tiken Jah Fakoly – Plus rien ne m’étonne"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-aotearoa.html",
+      "controls": 1,
+      "ids": [
+        "JtyCtksvSOg"
+      ],
+      "titles": [
+        "Fat Freddy’s Drop – Wandering Eye"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-asia.html",
+      "controls": 1,
+      "ids": [
+        "gCfGQXRydsc"
+      ],
+      "titles": [
+        "Ras Muhamad – Salam"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-australia.html",
+      "controls": 2,
+      "ids": [
+        "Sk7N3dhzM1o",
+        "tKabIXhoqGU"
+      ],
+      "titles": [
+        "The Cat Empire – Hello",
+        "Dub FX – Love Someone（Bristolでの演奏）"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-europe.html",
+      "controls": 1,
+      "ids": [
+        "d9ZsWR4unWY"
+      ],
+      "titles": [
+        "Dub inc – Tout ce qu’ils veulent"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-india.html",
+      "controls": 1,
+      "ids": [
+        "VuYgICoMer8"
+      ],
+      "titles": [
+        "The Ska Vengers – Frank Brazil"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-latin-america.html",
+      "controls": 2,
+      "ids": [
+        "tRmtL8yxcSA",
+        "wnMAwJ4KaPM"
+      ],
+      "titles": [
+        "Natiruts – Sorri, Sou Rei（ライブ）",
+        "Ska Cubano – Babalu"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/world-middle-east.html",
+      "controls": 1,
+      "ids": [
+        "Sfyfn228i4A"
+      ],
+      "titles": [
+        "TootArd – Musiqa"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 3,
       "playback": "unverified"
     },
     {
@@ -81,7 +282,16 @@
         "-Ctg1FK0sYE",
         "ASLbLIb1pH8"
       ],
-      "internalLinks": 12,
+      "titles": [
+        "Alton Ellis – Girl I’ve Got a Date",
+        "Alton Ellis – I’m Still in Love",
+        "Alton Ellis – Dance Crasher",
+        "Alton Ellis – I’m Just a Guy"
+      ],
+      "controlsBefore": 8,
+      "removedOrHidden": 4,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 10,
       "playback": "unverified"
     },
     {
@@ -91,14 +301,25 @@
         "2bmnHHz6jq8",
         "5drQWvjMchs"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "ASOUND – オリジナル",
+        "ASOUND – Studio Session（演奏集）"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
       "file": "artists/audio-active.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 8,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -107,7 +328,13 @@
       "ids": [
         "Iu5hllp7Vgo"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Jacob Miller – Baby I Love You So"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -118,7 +345,15 @@
         "HNBCVM4KbUM",
         "yv5xonFSC4c"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "The Wailing Wailers – Simmer Down",
+        "Bob Marley & The Wailers – Three Little Birds",
+        "Bob Marley & The Wailers – Redemption Song"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -127,14 +362,45 @@
       "ids": [
         "6LPHL6zG5Ds"
       ],
-      "internalLinks": 8,
+      "titles": [
+        "Catbite – Call Your Bluff"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/christopher-ellis.html",
+      "controls": 2,
+      "ids": [
+        "GDstBkASId8",
+        "4FmvvZhrpCA"
+      ],
+      "titles": [
+        "Christopher Ellis – Still Go A Dance",
+        "Christopher Ellis – Rub A Dub"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
       "playback": "unverified"
     },
     {
       "file": "artists/cool-wise-man.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 3,
+      "controls": 1,
+      "ids": [
+        "JrKIH4vzaUM"
+      ],
+      "titles": [
+        "ハンバート ハンバート × COOL WISE MAN – 23時59分（Short Ver.）"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
@@ -143,7 +409,13 @@
       "ids": [
         "LU2Bt9cB6KY"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "Derrick Morgan – Tougher Than Tough"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -153,21 +425,36 @@
         "jpwH2Y58TeI",
         "mxtfdH3-TQ4"
       ],
-      "internalLinks": 12,
+      "titles": [
+        "Desmond Dekker – 007 (Shanty Town)",
+        "Desmond Dekker – Israelites"
+      ],
+      "controlsBefore": 7,
+      "removedOrHidden": 5,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
       "file": "artists/determinations.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 3,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
       "file": "artists/dry-and-heavy.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 9,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -176,7 +463,13 @@
       "ids": [
         "GwWv-T4rM0k"
       ],
-      "internalLinks": 11,
+      "titles": [
+        "Fishmans – LONG SEASON"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -189,7 +482,17 @@
         "VHwU9XejwCY",
         "LU2Bt9cB6KY"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Hopeton Lewis – Take It Easy",
+        "Alton Ellis – Girl I’ve Got a Date",
+        "Roy Shirley – Hold Them",
+        "The Uniques – People Rocksteady",
+        "Derrick Morgan – Tougher Than Tough"
+      ],
+      "controlsBefore": 8,
+      "removedOrHidden": 3,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -199,7 +502,14 @@
         "3MtcGmFgXdE",
         "5Bh7vdVRF2Q"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "KEMURI – PMA（SKA BRAVO Version）",
+        "KEMURI – I am proud"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -208,14 +518,24 @@
       "ids": [
         "JZHTg26q1Js"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Ken Boothe – Everything I Own"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
       "file": "artists/kill-lincoln.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 3,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
@@ -227,7 +547,16 @@
         "8_E1biKrlw4",
         "nscYSjuAQYM"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "Larry Marshall – Nanny Goat",
+        "Lester Sterling & Stranger Cole – Bangarang",
+        "The Beltones – No More Heartaches",
+        "Lee Perry – People Funny Boy"
+      ],
+      "controlsBefore": 8,
+      "removedOrHidden": 4,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -236,14 +565,24 @@
       "ids": [
         "y067sauu7qk"
       ],
-      "internalLinks": 5,
+      "titles": [
+        "Laurel Aitken – Boogie in My Bones"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
       "playback": "unverified"
     },
     {
       "file": "artists/little-tempo.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 8,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -255,7 +594,16 @@
         "SOJSM46nWwo",
         "KwIe_sjKeAY"
       ],
-      "internalLinks": 11,
+      "titles": [
+        "Madness – Baggy Trousers",
+        "Madness – The Prince",
+        "Madness – One Step Beyond",
+        "Madness – Our House"
+      ],
+      "controlsBefore": 5,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -264,21 +612,43 @@
       "ids": [
         "NIGMUAMevH0"
       ],
-      "internalLinks": 2,
+      "titles": [
+        "The Mighty Mighty Bosstones – The Impression That I Get"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
       "file": "artists/mute-beat.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 10,
+      "controls": 1,
+      "ids": [
+        "YR5JjUC_jmY"
+      ],
+      "titles": [
+        "MUTE BEAT – After the Rain"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
       "file": "artists/operation-ivy.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 2,
+      "controls": 1,
+      "ids": [
+        "Nphl0iPQx2g"
+      ],
+      "titles": [
+        "Operation Ivy – Sound System（2007 Remaster）"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
       "playback": "unverified"
     },
     {
@@ -289,7 +659,15 @@
         "ZnXIM3yPhw4",
         "h4WXJu6sjEg"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Phyllis Dillon – Don’t Stay Away",
+        "Phyllis Dillon – Perfidia",
+        "Phyllis Dillon – One Life to Live"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -299,14 +677,25 @@
         "2xcGVm06jl4",
         "0pcwhAxMSLI"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "Prince Buster – One Step Beyond",
+        "Prince Buster – Al Capone"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
       "file": "artists/ratville.html",
       "controls": 0,
       "ids": [],
-      "internalLinks": 9,
+      "titles": [],
+      "controlsBefore": 0,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -315,7 +704,13 @@
       "ids": [
         "nw1ECvnqlu8"
       ],
-      "internalLinks": 8,
+      "titles": [
+        "Lester Sterling & Stranger Cole – Bangarang"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -326,7 +721,15 @@
         "O3PwyGIZxX8",
         "CwhdNK1pWS0"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "The Beat – Tears of a Clown",
+        "The Beat – Mirror in the Bathroom",
+        "The Beat – Hands Off... She's Mine"
+      ],
+      "controlsBefore": 6,
+      "removedOrHidden": 3,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -336,7 +739,14 @@
         "L5fJQ9DYL0k",
         "IxF1pz3VrfE"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "The Ethiopians – Train to Skaville",
+        "The Ethiopians – Everything Crash"
+      ],
+      "controlsBefore": 5,
+      "removedOrHidden": 3,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -346,7 +756,14 @@
         "aMVZvjnEOXA",
         "tAHYMYBA2hY"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "The Heptones – Party Time",
+        "The Heptones – Pretty Looks Isn’t All"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -356,7 +773,14 @@
         "joxAQs2DHNU",
         "9eM3UlP4VNw"
       ],
-      "internalLinks": 12,
+      "titles": [
+        "The Maytals – 54-46 That’s My Number",
+        "Toots & The Maytals – Do the Reggay"
+      ],
+      "controlsBefore": 5,
+      "removedOrHidden": 3,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -367,7 +791,15 @@
         "BXf1j8Hz2bU",
         "U3Hxb0ktgyQ"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "The Melodians – Swing and Dine",
+        "The Melodians – Rivers of Babylon",
+        "The Melodians – Little Nut Tree"
+      ],
+      "controlsBefore": 7,
+      "removedOrHidden": 4,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -376,7 +808,13 @@
       "ids": [
         "2Ng9Pf_p7Fw"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "The Orb – Little Fluffy Clouds"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -386,7 +824,14 @@
         "SQXqkiKXiHc",
         "pVA4acOeN84"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "The Paragons – The Tide Is High",
+        "The Paragons – Only a Smile"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -395,7 +840,13 @@
       "ids": [
         "ZivevzNnZyw"
       ],
-      "internalLinks": 6,
+      "titles": [
+        "The Pioneers – Long Shot Kick De Bucket"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 4,
       "playback": "unverified"
     },
     {
@@ -407,14 +858,31 @@
         "oeira_3fvvo",
         "Sn4ntpOXE6w"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "The Selecter – On My Radio (1979 TV performance)",
+        "The Selecter – Too Much Pressure",
+        "The Selecter – The Selecter",
+        "The Specials – Gangsters"
+      ],
+      "controlsBefore": 6,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
       "file": "artists/the-ska-flames.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 4,
+      "controls": 1,
+      "ids": [
+        "RbR88S2sruA"
+      ],
+      "titles": [
+        "THE SKA FLAMES – Ocean Liner"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
@@ -423,14 +891,28 @@
       "ids": [
         "DTol7Wm_NiQ"
       ],
-      "internalLinks": 15,
+      "titles": [
+        "Guns Of Navarone"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 10,
       "playback": "unverified"
     },
     {
       "file": "artists/the-slackers.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 2,
+      "controls": 1,
+      "ids": [
+        "H2g8gwAtDbY"
+      ],
+      "titles": [
+        "The Slackers – Wasted Days"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -446,7 +928,20 @@
         "roE5l5aVWs8",
         "RZ2oXzrnti4"
       ],
-      "internalLinks": 15,
+      "titles": [
+        "The Specials – Gangsters",
+        "Prince Buster – Al Capone",
+        "Dandy Livingstone – Rudy, A Message to You",
+        "The Maytals – Monkey Man",
+        "The Skatalites – Guns of Navarone",
+        "The Specials – Too Hot",
+        "The Specials – Enjoy Yourself",
+        "The Specials – Ghost Town"
+      ],
+      "controlsBefore": 11,
+      "removedOrHidden": 3,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 11,
       "playback": "unverified"
     },
     {
@@ -455,7 +950,13 @@
       "ids": [
         "jMauMXfV2A8"
       ],
-      "internalLinks": 8,
+      "titles": [
+        "The Techniques – You Don’t Care"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -464,7 +965,13 @@
       "ids": [
         "lC6UF2Fn65A"
       ],
-      "internalLinks": 2,
+      "titles": [
+        "The Toasters – 2-Tone Army"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
@@ -473,7 +980,13 @@
       "ids": [
         "VHwU9XejwCY"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "The Uniques – People Rocksteady"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -482,13 +995,27 @@
       "ids": [
         "7xo-BCAjMiM"
       ],
-      "internalLinks": 11,
+      "titles": [
+        "The Wailing Wailers – Simmer Down"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 9,
       "playback": "unverified"
     },
     {
       "file": "artists/tokyo-ska-paradise-orchestra.html",
-      "controls": 0,
-      "ids": [],
+      "controls": 1,
+      "ids": [
+        "8wFObFnp4fQ"
+      ],
+      "titles": [
+        "東京スカパラダイスオーケストラ – Paradise Has No Border"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 3,
       "playback": "unverified"
     },
@@ -498,7 +1025,28 @@
       "ids": [
         "2Ng9Pf_p7Fw"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "The Orb – Little Fluffy Clouds"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/calypso.html",
+      "controls": 1,
+      "ids": [
+        "ML18l_jCplY"
+      ],
+      "titles": [
+        "Lord Kitchener – London Is the Place for Me"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 3,
       "playback": "unverified"
     },
     {
@@ -509,6 +1057,14 @@
         "vn6CP_1xQcE",
         "tshxBEBMaA8"
       ],
+      "titles": [
+        "Yellowman – Zungguzungguguzungguzeng",
+        "Wayne Smith – Under Mi Sleng Teng",
+        "Sean Paul – Get Busy"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 6,
       "playback": "unverified"
     },
@@ -518,6 +1074,12 @@
       "ids": [
         "vn6CP_1xQcE"
       ],
+      "titles": [
+        "Wayne Smith – Under Mi Sleng Teng"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
       "internalLinks": 6,
       "playback": "unverified"
     },
@@ -528,7 +1090,14 @@
         "ztq7-kkygZk",
         "vn6CP_1xQcE"
       ],
-      "internalLinks": 26,
+      "titles": [
+        "Augustus Pablo / King Tubby – King Tubby Meets Rockers Uptown",
+        "Wayne Smith – Under Mi Sleng Teng"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 21,
       "playback": "unverified"
     },
     {
@@ -538,21 +1107,44 @@
         "hzqFmXZ8tOE",
         "rMWdX1_cEXg"
       ],
+      "titles": [
+        "Protoje ft. Chronixx – Who Knows",
+        "Skillibeng – Crocodile Teeth"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 15,
       "playback": "unverified"
     },
     {
       "file": "genres/japan-ska-dub.html",
-      "controls": 0,
-      "ids": [],
+      "controls": 1,
+      "ids": [
+        "8wFObFnp4fQ"
+      ],
+      "titles": [
+        "東京スカパラダイスオーケストラ – Paradise Has No Border"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 6,
       "playback": "unverified"
     },
     {
       "file": "genres/japan-ska.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 23,
+      "controls": 1,
+      "ids": [
+        "3MtcGmFgXdE"
+      ],
+      "titles": [
+        "KEMURI – PMA（SKA BRAVO Version）"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 18,
       "playback": "unverified"
     },
     {
@@ -563,6 +1155,14 @@
         "KhK9cKEb1j4",
         "pjPA7CXutDw"
       ],
+      "titles": [
+        "Los Fabulosos Cadillacs – Vasos Vacíos",
+        "Los Fabulosos Cadillacs – El Genio del Dub (live)",
+        "Los Fabulosos Cadillacs – Matador"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 3,
       "playback": "unverified"
     },
@@ -573,7 +1173,14 @@
         "J1AZxrNd45k",
         "HTp2iX6Mq7U"
       ],
-      "internalLinks": 8,
+      "titles": [
+        "Carroll Thompson – Hopelessly in Love",
+        "Janet Kay – Silly Games"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -583,7 +1190,29 @@
         "y067sauu7qk",
         "DTol7Wm_NiQ"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Laurel Aitken – Boogie in My Bones",
+        "The Skatalites – Guns of Navarone"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/mento.html",
+      "controls": 1,
+      "ids": [
+        "kqaadTlATqk"
+      ],
+      "titles": [
+        "The Jolly Boys – Rehab"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -593,7 +1222,14 @@
         "6LPHL6zG5Ds",
         "RZ2oXzrnti4"
       ],
-      "internalLinks": 12,
+      "titles": [
+        "Catbite – Call Your Bluff",
+        "The Specials – Ghost Town"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 10,
       "playback": "unverified"
     },
     {
@@ -602,7 +1238,13 @@
       "ids": [
         "btxjsv9dLGc"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "The Toasters – 2-Tone Army"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -612,6 +1254,13 @@
         "vn6CP_1xQcE",
         "VLaVB3aw-54"
       ],
+      "titles": [
+        "Wayne Smith – Under Mi Sleng Teng",
+        "Shabba Ranks – Mr. Loverman"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
       "internalLinks": 4,
       "playback": "unverified"
     },
@@ -621,6 +1270,12 @@
       "ids": [
         "tshxBEBMaA8"
       ],
+      "titles": [
+        "Sean Paul – Get Busy"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 7,
       "playback": "unverified"
     },
@@ -632,7 +1287,15 @@
         "hzqFmXZ8tOE",
         "FROI6bS5Nvg"
       ],
-      "internalLinks": 4,
+      "titles": [
+        "Chronixx – Here Comes Trouble",
+        "Protoje ft. Chronixx – Who Knows",
+        "Burning Spear – Marcus Garvey"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -648,7 +1311,20 @@
         "ZivevzNnZyw",
         "IxF1pz3VrfE"
       ],
-      "internalLinks": 31,
+      "titles": [
+        "Larry Marshall – Nanny Goat",
+        "Lee Perry – People Funny Boy",
+        "Lester Sterling & Stranger Cole – Bangarang",
+        "The Beltones – No More Heartaches",
+        "Toots & The Maytals – Do the Reggay",
+        "Roy Shirley – Hold Them",
+        "The Pioneers – Long Shot Kick De Bucket",
+        "The Ethiopians – Everything Crash"
+      ],
+      "controlsBefore": 14,
+      "removedOrHidden": 6,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 28,
       "playback": "unverified"
     },
     {
@@ -673,7 +1349,29 @@
         "h4WXJu6sjEg",
         "jpwH2Y58TeI"
       ],
-      "internalLinks": 40,
+      "titles": [
+        "Hopeton Lewis – Take It Easy",
+        "Alton Ellis – Girl I’ve Got a Date",
+        "Roy Shirley – Hold Them",
+        "Derrick Morgan – Tougher Than Tough",
+        "The Uniques – People Rocksteady",
+        "Alton Ellis – I’m Just a Guy",
+        "Alton Ellis – I’m Still in Love",
+        "Alton Ellis – Dance Crasher",
+        "The Paragons – The Tide Is High",
+        "The Paragons – Only a Smile",
+        "The Techniques – You Don’t Care",
+        "The Melodians – Swing and Dine",
+        "The Heptones – Party Time",
+        "Phyllis Dillon – Don’t Stay Away",
+        "Phyllis Dillon – Perfidia",
+        "Phyllis Dillon – One Life to Live",
+        "Desmond Dekker – 007 (Shanty Town)"
+      ],
+      "controlsBefore": 23,
+      "removedOrHidden": 6,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 36,
       "playback": "unverified"
     },
     {
@@ -683,6 +1381,13 @@
         "FROI6bS5Nvg",
         "ZfxYLPCm4PE"
       ],
+      "titles": [
+        "Burning Spear – Marcus Garvey",
+        "Culture – Two Sevens Clash"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 8,
       "playback": "unverified"
     },
@@ -693,6 +1398,13 @@
         "NIGMUAMevH0",
         "Sn4ntpOXE6w"
       ],
+      "titles": [
+        "The Mighty Mighty Bosstones – The Impression That I Get",
+        "The Specials – Gangsters"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 5,
       "playback": "unverified"
     },
@@ -703,6 +1415,13 @@
         "evKRvU9FVts",
         "DTol7Wm_NiQ"
       ],
+      "titles": [
+        "New York Ska-Jazz Ensemble – Take Five",
+        "The Skatalites – Guns of Navarone"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 3,
       "playback": "unverified"
     },
@@ -712,7 +1431,13 @@
       "ids": [
         "DhKHAopx7D0"
       ],
-      "internalLinks": 11,
+      "titles": [
+        "Rancid – Time Bomb"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -725,7 +1450,17 @@
         "mxtfdH3-TQ4",
         "2xcGVm06jl4"
       ],
-      "internalLinks": 52,
+      "titles": [
+        "The Skatalites – Guns of Navarone",
+        "The Wailing Wailers – Simmer Down",
+        "Desmond Dekker – 007 (Shanty Town)",
+        "Desmond Dekker – Israelites",
+        "Prince Buster – One Step Beyond"
+      ],
+      "controlsBefore": 8,
+      "removedOrHidden": 3,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 41,
       "playback": "unverified"
     },
     {
@@ -736,7 +1471,15 @@
         "do0iB79mgBk",
         "NIGMUAMevH0"
       ],
-      "internalLinks": 23,
+      "titles": [
+        "Rancid – Time Bomb",
+        "The Slackers – Have the Time",
+        "The Mighty Mighty Bosstones – The Impression That I Get"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 20,
       "playback": "unverified"
     },
     {
@@ -746,7 +1489,14 @@
         "DTol7Wm_NiQ",
         "do0iB79mgBk"
       ],
-      "internalLinks": 14,
+      "titles": [
+        "The Skatalites – Guns of Navarone",
+        "The Slackers – Have the Time"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 10,
       "playback": "unverified"
     },
     {
@@ -755,6 +1505,12 @@
       "ids": [
         "rMWdX1_cEXg"
       ],
+      "titles": [
+        "Skillibeng – Crocodile Teeth"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
       "internalLinks": 5,
       "playback": "unverified"
     },
@@ -773,7 +1529,22 @@
         "DTol7Wm_NiQ",
         "MJ7ifuDVHl0"
       ],
-      "internalLinks": 37,
+      "titles": [
+        "The Specials – Gangsters",
+        "Prince Buster – Al Capone",
+        "The Specials – Ghost Town",
+        "Madness – The Prince",
+        "The Selecter – On My Radio (1979 TV performance)",
+        "The Beat – Tears of a Clown",
+        "Dandy Livingstone – Rudy, A Message to You",
+        "The Maytals – Monkey Man",
+        "The Skatalites – Guns of Navarone",
+        "The Selecter – Too Much Pressure"
+      ],
+      "controlsBefore": 20,
+      "removedOrHidden": 10,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 33,
       "playback": "unverified"
     },
     {
@@ -787,14 +1558,33 @@
         "cntvEDbagAw",
         "ohpAuziamMU"
       ],
-      "internalLinks": 12,
+      "titles": [
+        "The Specials – Gangsters",
+        "The Selecter – The Selecter",
+        "Madness – The Prince",
+        "The Selecter – On My Radio (1979 TV performance)",
+        "The Specials – A Message to You Rudy",
+        "The Beat – Tears of a Clown"
+      ],
+      "controlsBefore": 8,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 9,
       "playback": "unverified"
     },
     {
       "file": "labels/bad-time-records.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 3,
+      "controls": 1,
+      "ids": [
+        "6LPHL6zG5Ds"
+      ],
+      "titles": [
+        "Catbite – Call Your Bluff"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 1,
       "playback": "unverified"
     },
     {
@@ -805,7 +1595,15 @@
         "jpwH2Y58TeI",
         "joxAQs2DHNU"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "Desmond Dekker – Israelites",
+        "Desmond Dekker – 007 (Shanty Town)",
+        "The Maytals – 54-46 That’s My Number"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -814,7 +1612,13 @@
       "ids": [
         "7pnuW8V8obc"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Hopeton Lewis – Take It Easy"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -823,21 +1627,43 @@
       "ids": [
         "7xo-BCAjMiM"
       ],
-      "internalLinks": 12,
+      "titles": [
+        "The Wailing Wailers – Simmer Down"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 10,
       "playback": "unverified"
     },
     {
       "file": "labels/treasure-isle.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 11,
+      "controls": 1,
+      "ids": [
+        "UMd8XVEaKO4"
+      ],
+      "titles": [
+        "Alton Ellis – Girl I’ve Got a Date"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 9,
       "playback": "unverified"
     },
     {
       "file": "labels/trojan-records.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 9,
+      "controls": 1,
+      "ids": [
+        "mxtfdH3-TQ4"
+      ],
+      "titles": [
+        "Desmond Dekker – Israelites"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -848,14 +1674,30 @@
         "nw1ECvnqlu8",
         "rN7_0S-7tiE"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "The Uniques – My Conversation",
+        "Lester Sterling & Stranger Cole – Bangarang",
+        "Larry Marshall – Nanny Goat"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
       "file": "people/coxsone-dodd.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 12,
+      "controls": 1,
+      "ids": [
+        "7xo-BCAjMiM"
+      ],
+      "titles": [
+        "The Wailing Wailers – Simmer Down"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
@@ -865,14 +1707,29 @@
         "Ll_5suXU_pg",
         "tRTmnJ-_UnU"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "The Skatalites – Man in the Street",
+        "The Skatalites – Eastern Standard Time"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
       "file": "people/duke-reid.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 9,
+      "controls": 1,
+      "ids": [
+        "UMd8XVEaKO4"
+      ],
+      "titles": [
+        "Alton Ellis – Girl I’ve Got a Date"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -881,7 +1738,13 @@
       "ids": [
         "Sn4ntpOXE6w"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "The Specials – Gangsters"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -892,14 +1755,30 @@
         "Ultwo-qSbfQ",
         "VE-A5JULvRM"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "Roy Shirley – Hold Them",
+        "Dennis Brown – Money in My Pocket",
+        "Althea & Donna – Uptown Top Ranking"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
       "file": "people/kazufumi-kodama.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 10,
+      "controls": 1,
+      "ids": [
+        "YR5JjUC_jmY"
+      ],
+      "titles": [
+        "MUTE BEAT – After the Rain"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 7,
       "playback": "unverified"
     },
     {
@@ -908,7 +1787,13 @@
       "ids": [
         "vn6CP_1xQcE"
       ],
-      "internalLinks": 7,
+      "titles": [
+        "Wayne Smith – Under Mi Sleng Teng"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -918,7 +1803,14 @@
         "ztq7-kkygZk",
         "Iu5hllp7Vgo"
       ],
-      "internalLinks": 15,
+      "titles": [
+        "Augustus Pablo / King Tubby – King Tubby Meets Rockers Uptown",
+        "Jacob Miller – Baby I Love You So"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 12,
       "playback": "unverified"
     },
     {
@@ -928,7 +1820,14 @@
         "nscYSjuAQYM",
         "ax5phXqMjCU"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Lee Perry – People Funny Boy",
+        "The Upsetters – Return of Django"
+      ],
+      "controlsBefore": 4,
+      "removedOrHidden": 2,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 5,
       "playback": "unverified"
     },
     {
@@ -939,7 +1838,15 @@
         "jpwH2Y58TeI",
         "joxAQs2DHNU"
       ],
-      "internalLinks": 11,
+      "titles": [
+        "Desmond Dekker – Israelites",
+        "Desmond Dekker – 007 (Shanty Town)",
+        "The Maytals – 54-46 That’s My Number"
+      ],
+      "controlsBefore": 3,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 9,
       "playback": "unverified"
     },
     {
@@ -948,14 +1855,28 @@
       "ids": [
         "7pnuW8V8obc"
       ],
-      "internalLinks": 9,
+      "titles": [
+        "Hopeton Lewis – Take It Easy"
+      ],
+      "controlsBefore": 2,
+      "removedOrHidden": 1,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
       "file": "people/scientist.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 7,
+      "controls": 1,
+      "ids": [
+        "thJZHtrWYfg"
+      ],
+      "titles": [
+        "Scientist – Dance of the Vampires"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     },
     {
@@ -964,14 +1885,28 @@
       "ids": [
         "w_seT2fHOI8"
       ],
-      "internalLinks": 10,
+      "titles": [
+        "The Skatalites – Freedom Sounds"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 8,
       "playback": "unverified"
     },
     {
       "file": "studios/black-ark.html",
-      "controls": 0,
-      "ids": [],
-      "internalLinks": 8,
+      "controls": 1,
+      "ids": [
+        "4dZky936vtU"
+      ],
+      "titles": [
+        "Junior Murvin – Police & Thieves"
+      ],
+      "controlsBefore": 1,
+      "removedOrHidden": 0,
+      "duplicateIdsAfter": 0,
+      "internalLinks": 6,
       "playback": "unverified"
     }
   ],

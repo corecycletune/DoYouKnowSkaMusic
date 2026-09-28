@@ -12,7 +12,7 @@ for(const folder of ['articles','artists','genres','labels','people','studios'])
   window.HTMLElement.prototype.scrollIntoView=function(){};
   const context={window,document,NodeFilter:{SHOW_TEXT:4},URL,console,location:{pathname:'/DoYouKnowSkaMusic/'+file,href:'https://corecycletune.github.io/DoYouKnowSkaMusic/'+file}};
   try{
-   vm.runInNewContext(app,context);
+   vm.runInNewContext(app.replace('organizeListeningRows();', 'window.__controlsBefore = [...document.querySelectorAll("main .inline-listen, main .youtube-links a")].filter(e=>!e.closest(".film-card")).length; organizeListeningRows();'),context);
    const controls=[...document.querySelectorAll('main .listen-track:not([hidden])')];
    const ids=controls.map(e=>e.dataset.video);
    assert.equal(new Set(ids).size,ids.length,'duplicate video controls');
@@ -36,7 +36,7 @@ for(const folder of ['articles','artists','genres','labels','people','studios'])
     if(fragment&&local.endsWith('.html')){const d=parseHTML(fs.readFileSync(local,'utf8')).document;if(!d.getElementById(decodeURIComponent(fragment)))broken.push(href);}
    }
    assert(!broken.length,'broken internal links: '+broken.join(', '));
-   rows.push({file,controls:ids.length,ids,internalLinks:document.querySelectorAll('main a[href]').length,playback:'unverified'});
+   rows.push({file,controls:ids.length,ids,titles:controls.map(e=>e.dataset.title),controlsBefore:window.__controlsBefore,removedOrHidden:window.__controlsBefore-controls.length,duplicateIdsAfter:ids.length-new Set(ids).size,internalLinks:[...document.querySelectorAll('main a[href]')].filter(e=>!/^https?:/.test(e.getAttribute('href'))).length,playback:'unverified'});
   }catch(e){errors.push({file,error:e.message});}
  }
 }
