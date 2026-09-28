@@ -1,0 +1,979 @@
+{
+  "checked": "2026-09-29",
+  "method": "linkedom: open/close controls, deduplication, internal targets. No real browser layout or YouTube playback verification.",
+  "rows": [
+    {
+      "file": "articles/documentary-films.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 17,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/global-reggae.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 15,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/jamaica-to-two-tone.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/japanese-authentic-ska.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 22,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/japanese-dub.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 23,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/japanese-ska-now.html",
+      "controls": 1,
+      "ids": [
+        "pInSkxO_4G0"
+      ],
+      "internalLinks": 55,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/records-to-start.html",
+      "controls": 1,
+      "ids": [
+        "ZD29iWW94yg"
+      ],
+      "internalLinks": 23,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/two-tone-in-context.html",
+      "controls": 2,
+      "ids": [
+        "Sn4ntpOXE6w",
+        "RZ2oXzrnti4"
+      ],
+      "internalLinks": 16,
+      "playback": "unverified"
+    },
+    {
+      "file": "articles/what-is-ska.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/alton-ellis.html",
+      "controls": 4,
+      "ids": [
+        "UMd8XVEaKO4",
+        "WQSbDBKV_GM",
+        "-Ctg1FK0sYE",
+        "ASLbLIb1pH8"
+      ],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/asound.html",
+      "controls": 2,
+      "ids": [
+        "2bmnHHz6jq8",
+        "5drQWvjMchs"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/audio-active.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/augustus-pablo.html",
+      "controls": 1,
+      "ids": [
+        "Iu5hllp7Vgo"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/bob-marley.html",
+      "controls": 3,
+      "ids": [
+        "7xo-BCAjMiM",
+        "HNBCVM4KbUM",
+        "yv5xonFSC4c"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/catbite.html",
+      "controls": 1,
+      "ids": [
+        "6LPHL6zG5Ds"
+      ],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/cool-wise-man.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/derrick-morgan.html",
+      "controls": 1,
+      "ids": [
+        "LU2Bt9cB6KY"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/desmond-dekker.html",
+      "controls": 2,
+      "ids": [
+        "jpwH2Y58TeI",
+        "mxtfdH3-TQ4"
+      ],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/determinations.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/dry-and-heavy.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/fishmans.html",
+      "controls": 1,
+      "ids": [
+        "GwWv-T4rM0k"
+      ],
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/hopeton-lewis.html",
+      "controls": 5,
+      "ids": [
+        "7pnuW8V8obc",
+        "UMd8XVEaKO4",
+        "IC8R1r_FMjA",
+        "VHwU9XejwCY",
+        "LU2Bt9cB6KY"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/kemuri.html",
+      "controls": 2,
+      "ids": [
+        "3MtcGmFgXdE",
+        "5Bh7vdVRF2Q"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/ken-boothe.html",
+      "controls": 1,
+      "ids": [
+        "JZHTg26q1Js"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/kill-lincoln.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/larry-marshall.html",
+      "controls": 4,
+      "ids": [
+        "rN7_0S-7tiE",
+        "nw1ECvnqlu8",
+        "8_E1biKrlw4",
+        "nscYSjuAQYM"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/laurel-aitken.html",
+      "controls": 1,
+      "ids": [
+        "y067sauu7qk"
+      ],
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/little-tempo.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/madness.html",
+      "controls": 4,
+      "ids": [
+        "Dc3AovUZgvo",
+        "9_y7gC4T58g",
+        "SOJSM46nWwo",
+        "KwIe_sjKeAY"
+      ],
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/mighty-mighty-bosstones.html",
+      "controls": 1,
+      "ids": [
+        "NIGMUAMevH0"
+      ],
+      "internalLinks": 2,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/mute-beat.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/operation-ivy.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 2,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/phyllis-dillon.html",
+      "controls": 3,
+      "ids": [
+        "YkzhkLdweao",
+        "ZnXIM3yPhw4",
+        "h4WXJu6sjEg"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/prince-buster.html",
+      "controls": 2,
+      "ids": [
+        "2xcGVm06jl4",
+        "0pcwhAxMSLI"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/ratville.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/stranger-cole.html",
+      "controls": 1,
+      "ids": [
+        "nw1ECvnqlu8"
+      ],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-beat.html",
+      "controls": 3,
+      "ids": [
+        "ohpAuziamMU",
+        "O3PwyGIZxX8",
+        "CwhdNK1pWS0"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-ethiopians.html",
+      "controls": 2,
+      "ids": [
+        "L5fJQ9DYL0k",
+        "IxF1pz3VrfE"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-heptones.html",
+      "controls": 2,
+      "ids": [
+        "aMVZvjnEOXA",
+        "tAHYMYBA2hY"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-maytals.html",
+      "controls": 2,
+      "ids": [
+        "joxAQs2DHNU",
+        "9eM3UlP4VNw"
+      ],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-melodians.html",
+      "controls": 3,
+      "ids": [
+        "pyy3oXnLckk",
+        "BXf1j8Hz2bU",
+        "U3Hxb0ktgyQ"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-orb.html",
+      "controls": 1,
+      "ids": [
+        "2Ng9Pf_p7Fw"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-paragons.html",
+      "controls": 2,
+      "ids": [
+        "SQXqkiKXiHc",
+        "pVA4acOeN84"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-pioneers.html",
+      "controls": 1,
+      "ids": [
+        "ZivevzNnZyw"
+      ],
+      "internalLinks": 6,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-selecter.html",
+      "controls": 4,
+      "ids": [
+        "074AfC9tw48",
+        "MJ7ifuDVHl0",
+        "oeira_3fvvo",
+        "Sn4ntpOXE6w"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-ska-flames.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-skatalites.html",
+      "controls": 1,
+      "ids": [
+        "DTol7Wm_NiQ"
+      ],
+      "internalLinks": 15,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-slackers.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 2,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-specials.html",
+      "controls": 8,
+      "ids": [
+        "Sn4ntpOXE6w",
+        "0pcwhAxMSLI",
+        "OXXOaecD52k",
+        "WNRs3PTlGOU",
+        "DTol7Wm_NiQ",
+        "XkGigEMADIc",
+        "roE5l5aVWs8",
+        "RZ2oXzrnti4"
+      ],
+      "internalLinks": 15,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-techniques.html",
+      "controls": 1,
+      "ids": [
+        "jMauMXfV2A8"
+      ],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-toasters.html",
+      "controls": 1,
+      "ids": [
+        "lC6UF2Fn65A"
+      ],
+      "internalLinks": 2,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-uniques.html",
+      "controls": 1,
+      "ids": [
+        "VHwU9XejwCY"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/the-wailers.html",
+      "controls": 1,
+      "ids": [
+        "7xo-BCAjMiM"
+      ],
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "artists/tokyo-ska-paradise-orchestra.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/ambient-dub.html",
+      "controls": 1,
+      "ids": [
+        "2Ng9Pf_p7Fw"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/dancehall.html",
+      "controls": 3,
+      "ids": [
+        "x6FFvSLTUXU",
+        "vn6CP_1xQcE",
+        "tshxBEBMaA8"
+      ],
+      "internalLinks": 6,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/digital-dancehall.html",
+      "controls": 1,
+      "ids": [
+        "vn6CP_1xQcE"
+      ],
+      "internalLinks": 6,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/dub.html",
+      "controls": 2,
+      "ids": [
+        "ztq7-kkygZk",
+        "vn6CP_1xQcE"
+      ],
+      "internalLinks": 26,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/jamaica-now.html",
+      "controls": 2,
+      "ids": [
+        "hzqFmXZ8tOE",
+        "rMWdX1_cEXg"
+      ],
+      "internalLinks": 15,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/japan-ska-dub.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 6,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/japan-ska.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 23,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/latin-ska.html",
+      "controls": 3,
+      "ids": [
+        "8Zdhan166z0",
+        "KhK9cKEb1j4",
+        "pjPA7CXutDw"
+      ],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/lovers-rock.html",
+      "controls": 2,
+      "ids": [
+        "J1AZxrNd45k",
+        "HTp2iX6Mq7U"
+      ],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/mento-rnb.html",
+      "controls": 2,
+      "ids": [
+        "y067sauu7qk",
+        "DTol7Wm_NiQ"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/modern-ska.html",
+      "controls": 2,
+      "ids": [
+        "6LPHL6zG5Ds",
+        "RZ2oXzrnti4"
+      ],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/neo-ska.html",
+      "controls": 1,
+      "ids": [
+        "btxjsv9dLGc"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/ragga.html",
+      "controls": 2,
+      "ids": [
+        "vn6CP_1xQcE",
+        "VLaVB3aw-54"
+      ],
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/reggae-fusion.html",
+      "controls": 1,
+      "ids": [
+        "tshxBEBMaA8"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/reggae-revival.html",
+      "controls": 3,
+      "ids": [
+        "LfeIfiiBTfY",
+        "hzqFmXZ8tOE",
+        "FROI6bS5Nvg"
+      ],
+      "internalLinks": 4,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/reggae.html",
+      "controls": 8,
+      "ids": [
+        "rN7_0S-7tiE",
+        "nscYSjuAQYM",
+        "nw1ECvnqlu8",
+        "8_E1biKrlw4",
+        "9eM3UlP4VNw",
+        "IC8R1r_FMjA",
+        "ZivevzNnZyw",
+        "IxF1pz3VrfE"
+      ],
+      "internalLinks": 31,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/rocksteady.html",
+      "controls": 17,
+      "ids": [
+        "7pnuW8V8obc",
+        "UMd8XVEaKO4",
+        "IC8R1r_FMjA",
+        "LU2Bt9cB6KY",
+        "VHwU9XejwCY",
+        "ASLbLIb1pH8",
+        "WQSbDBKV_GM",
+        "-Ctg1FK0sYE",
+        "SQXqkiKXiHc",
+        "pVA4acOeN84",
+        "jMauMXfV2A8",
+        "pyy3oXnLckk",
+        "aMVZvjnEOXA",
+        "YkzhkLdweao",
+        "ZnXIM3yPhw4",
+        "h4WXJu6sjEg",
+        "jpwH2Y58TeI"
+      ],
+      "internalLinks": 40,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/roots-reggae.html",
+      "controls": 2,
+      "ids": [
+        "FROI6bS5Nvg",
+        "ZfxYLPCm4PE"
+      ],
+      "internalLinks": 8,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/ska-core.html",
+      "controls": 2,
+      "ids": [
+        "NIGMUAMevH0",
+        "Sn4ntpOXE6w"
+      ],
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/ska-jazz.html",
+      "controls": 2,
+      "ids": [
+        "evKRvU9FVts",
+        "DTol7Wm_NiQ"
+      ],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/ska-punk.html",
+      "controls": 1,
+      "ids": [
+        "DhKHAopx7D0"
+      ],
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/ska.html",
+      "controls": 5,
+      "ids": [
+        "DTol7Wm_NiQ",
+        "7xo-BCAjMiM",
+        "jpwH2Y58TeI",
+        "mxtfdH3-TQ4",
+        "2xcGVm06jl4"
+      ],
+      "internalLinks": 52,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/third-wave.html",
+      "controls": 3,
+      "ids": [
+        "DhKHAopx7D0",
+        "do0iB79mgBk",
+        "NIGMUAMevH0"
+      ],
+      "internalLinks": 23,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/traditional-ska-revival.html",
+      "controls": 2,
+      "ids": [
+        "DTol7Wm_NiQ",
+        "do0iB79mgBk"
+      ],
+      "internalLinks": 14,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/trap-dancehall.html",
+      "controls": 1,
+      "ids": [
+        "rMWdX1_cEXg"
+      ],
+      "internalLinks": 5,
+      "playback": "unverified"
+    },
+    {
+      "file": "genres/two-tone.html",
+      "controls": 10,
+      "ids": [
+        "Sn4ntpOXE6w",
+        "0pcwhAxMSLI",
+        "RZ2oXzrnti4",
+        "9_y7gC4T58g",
+        "074AfC9tw48",
+        "ohpAuziamMU",
+        "OXXOaecD52k",
+        "WNRs3PTlGOU",
+        "DTol7Wm_NiQ",
+        "MJ7ifuDVHl0"
+      ],
+      "internalLinks": 37,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/2-tone-records.html",
+      "controls": 6,
+      "ids": [
+        "Sn4ntpOXE6w",
+        "oeira_3fvvo",
+        "9_y7gC4T58g",
+        "074AfC9tw48",
+        "cntvEDbagAw",
+        "ohpAuziamMU"
+      ],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/bad-time-records.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 3,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/beverleys.html",
+      "controls": 3,
+      "ids": [
+        "mxtfdH3-TQ4",
+        "jpwH2Y58TeI",
+        "joxAQs2DHNU"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/federal-records.html",
+      "controls": 1,
+      "ids": [
+        "7pnuW8V8obc"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/studio-one.html",
+      "controls": 1,
+      "ids": [
+        "7xo-BCAjMiM"
+      ],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/treasure-isle.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "labels/trojan-records.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/bunny-lee.html",
+      "controls": 3,
+      "ids": [
+        "cUyJ965eHok",
+        "nw1ECvnqlu8",
+        "rN7_0S-7tiE"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/coxsone-dodd.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 12,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/don-drummond.html",
+      "controls": 2,
+      "ids": [
+        "Ll_5suXU_pg",
+        "tRTmnJ-_UnU"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/duke-reid.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/jerry-dammers.html",
+      "controls": 1,
+      "ids": [
+        "Sn4ntpOXE6w"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/joe-gibbs.html",
+      "controls": 3,
+      "ids": [
+        "IC8R1r_FMjA",
+        "Ultwo-qSbfQ",
+        "VE-A5JULvRM"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/kazufumi-kodama.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/king-jammy.html",
+      "controls": 1,
+      "ids": [
+        "vn6CP_1xQcE"
+      ],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/king-tubby.html",
+      "controls": 2,
+      "ids": [
+        "ztq7-kkygZk",
+        "Iu5hllp7Vgo"
+      ],
+      "internalLinks": 15,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/lee-scratch-perry.html",
+      "controls": 2,
+      "ids": [
+        "nscYSjuAQYM",
+        "ax5phXqMjCU"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/leslie-kong.html",
+      "controls": 3,
+      "ids": [
+        "mxtfdH3-TQ4",
+        "jpwH2Y58TeI",
+        "joxAQs2DHNU"
+      ],
+      "internalLinks": 11,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/lyn-taitt.html",
+      "controls": 1,
+      "ids": [
+        "7pnuW8V8obc"
+      ],
+      "internalLinks": 9,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/scientist.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 7,
+      "playback": "unverified"
+    },
+    {
+      "file": "people/tommy-mccook.html",
+      "controls": 1,
+      "ids": [
+        "w_seT2fHOI8"
+      ],
+      "internalLinks": 10,
+      "playback": "unverified"
+    },
+    {
+      "file": "studios/black-ark.html",
+      "controls": 0,
+      "ids": [],
+      "internalLinks": 8,
+      "playback": "unverified"
+    }
+  ],
+  "errors": []
+}

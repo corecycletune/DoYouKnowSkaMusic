@@ -377,6 +377,10 @@ function organizeListeningRows(){
     }else control.before(row);
     row.append(control);
   });
+  // Auto-inserted rows can replace the only recording in a legacy listen box.
+  document.querySelectorAll("main .listen-box").forEach(section=>{
+    if(!section.querySelector(".listen-track:not([hidden])"))section.remove();
+  });
 }
 organizeListeningRows();
 

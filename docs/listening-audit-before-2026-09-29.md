@@ -4,7 +4,7 @@
 
 候補数は本文の曲名からの自動挿入も含む静的推定。表示・曲の同一性・日本での再生可否は未確認。映画動画も含む。文字数は内容の充実度の判定ではなく、見直す順番の参考。
 
-対象：102ページ。音源候補ゼロ：27ページ。
+対象：100ページ。音源候補ゼロ：29ページ。
 
 | ページ | 音源候補数 | 検索リンク | 本文等の文字数 | 再生確認 |
 |---|---:|---:|---:|---|
@@ -12,7 +12,9 @@
 | artists/operation-ivy.html | 0 | 0 | 608 | 未確認 |
 | artists/determinations.html | 0 | 0 | 620 | 未確認 |
 | artists/the-slackers.html | 0 | 0 | 633 | 未確認 |
+| artists/catbite.html | 0 | 0 | 660 | 未確認 |
 | artists/cool-wise-man.html | 0 | 0 | 681 | 未確認 |
+| artists/kemuri.html | 0 | 0 | 719 | 未確認 |
 | artists/tokyo-ska-paradise-orchestra.html | 0 | 0 | 745 | 未確認 |
 | labels/bad-time-records.html | 0 | 0 | 762 | 未確認 |
 | articles/jamaica-to-two-tone.html | 0 | 0 | 768 | 未確認 |
@@ -33,13 +35,12 @@
 | artists/mute-beat.html | 0 | 0 | 1363 | 未確認 |
 | labels/trojan-records.html | 0 | 0 | 1519 | 未確認 |
 | genres/japan-ska.html | 0 | 0 | 2519 | 未確認 |
-| articles/japanese-dub.html | 0 | 0 | 2830 | 未確認 |
+| articles/japanese-dub.html | 0 | 0 | 2758 | 未確認 |
 | articles/japanese-authentic-ska.html | 0 | 0 | 4084 | 未確認 |
 | artists/mighty-mighty-bosstones.html | 1 | 0 | 601 | 未確認 |
 | artists/the-toasters.html | 1 | 0 | 616 | 未確認 |
 | genres/reggae-fusion.html | 1 | 0 | 616 | 未確認 |
 | genres/digital-dancehall.html | 1 | 0 | 647 | 未確認 |
-| artists/catbite.html | 1 | 0 | 649 | 未確認 |
 | artists/fishmans.html | 1 | 0 | 753 | 未確認 |
 | artists/laurel-aitken.html | 1 | 0 | 816 | 未確認 |
 | artists/ken-boothe.html | 1 | 0 | 840 | 未確認 |
@@ -49,10 +50,10 @@
 | labels/federal-records.html | 1 | 0 | 922 | 未確認 |
 | artists/the-uniques.html | 1 | 0 | 962 | 未確認 |
 | artists/the-techniques.html | 1 | 0 | 990 | 未確認 |
+| artists/the-wailers.html | 1 | 0 | 1114 | 未確認 |
 | people/king-jammy.html | 1 | 0 | 1128 | 未確認 |
 | people/tommy-mccook.html | 1 | 0 | 1170 | 未確認 |
 | people/jerry-dammers.html | 1 | 0 | 1190 | 未確認 |
-| artists/the-wailers.html | 1 | 0 | 1196 | 未確認 |
 | genres/ambient-dub.html | 1 | 0 | 1251 | 未確認 |
 | labels/studio-one.html | 1 | 0 | 1267 | 未確認 |
 | artists/augustus-pablo.html | 1 | 0 | 1345 | 未確認 |
@@ -66,15 +67,13 @@
 | genres/ska-jazz.html | 2 | 0 | 602 | 未確認 |
 | genres/trap-dancehall.html | 2 | 0 | 617 | 未確認 |
 | genres/ragga.html | 2 | 0 | 637 | 未確認 |
+| genres/roots-reggae.html | 2 | 0 | 658 | 未確認 |
 | genres/jamaica-now.html | 2 | 0 | 680 | 未確認 |
-| artists/kemuri.html | 2 | 0 | 715 | 未確認 |
-| genres/roots-reggae.html | 2 | 0 | 741 | 未確認 |
 | genres/mento-rnb.html | 2 | 0 | 799 | 未確認 |
-| genres/lovers-rock.html | 2 | 0 | 898 | 未確認 |
+| genres/lovers-rock.html | 2 | 0 | 922 | 未確認 |
 | artists/the-heptones.html | 2 | 0 | 926 | 未確認 |
 | people/don-drummond.html | 2 | 0 | 936 | 未確認 |
 | artists/the-ethiopians.html | 2 | 0 | 939 | 未確認 |
-| artists/asound.html | 2 | 0 | 977 | 未確認 |
 | artists/the-paragons.html | 2 | 0 | 1107 | 未確認 |
 | artists/the-maytals.html | 2 | 0 | 1145 | 未確認 |
 | people/lee-scratch-perry.html | 2 | 0 | 1172 | 未確認 |
@@ -95,7 +94,6 @@
 | people/leslie-kong.html | 3 | 0 | 1058 | 未確認 |
 | labels/beverleys.html | 3 | 0 | 1120 | 未確認 |
 | people/bunny-lee.html | 3 | 0 | 1149 | 未確認 |
-| artists/bob-marley.html | 3 | 0 | 1150 | 未確認 |
 | artists/the-beat.html | 3 | 0 | 1188 | 未確認 |
 | genres/third-wave.html | 3 | 0 | 2242 | 未確認 |
 | artists/larry-marshall.html | 4 | 0 | 834 | 未確認 |
