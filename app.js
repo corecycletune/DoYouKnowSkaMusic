@@ -279,7 +279,15 @@ const TRACK_VIDEOS={
   "007":["jpwH2Y58TeI","Desmond Dekker – 007 (Shanty Town)"],
   "54-46":["joxAQs2DHNU","The Maytals – 54-46 That’s My Number"],
   "Everything Crash":["IxF1pz3VrfE","The Ethiopians – Everything Crash"],
-  "No More Heartaches":["8_E1biKrlw4","The Beltones – No More Heartaches"]
+  "No More Heartaches":["8_E1biKrlw4","The Beltones – No More Heartaches"],
+  "Money in My Pocket":["Ultwo-qSbfQ","Dennis Brown – Money in My Pocket"],
+  "Uptown Top Ranking":["VE-A5JULvRM","Althea & Donna – Uptown Top Ranking"],
+  "Return of Django":["ax5phXqMjCU","The Upsetters – Return of Django"],
+  "Freedom Sounds":["w_seT2fHOI8","The Skatalites – Freedom Sounds"],
+  "Eastern Standard Time":["tRTmnJ-_UnU","The Skatalites – Eastern Standard Time"],
+  "Man in the Street":["Ll_5suXU_pg","The Skatalites – Man in the Street"],
+  "ナイトクルージング":["ZD29iWW94yg","Fishmans – ナイトクルージング"],
+  "People’s Rocksteady":["VHwU9XejwCY","The Uniques – People Rocksteady"]
 };
 
 function inlineTracks(){
