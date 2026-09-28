@@ -287,7 +287,11 @@ const TRACK_VIDEOS={
   "Eastern Standard Time":["tRTmnJ-_UnU","The Skatalites – Eastern Standard Time"],
   "Man in the Street":["Ll_5suXU_pg","The Skatalites – Man in the Street"],
   "ナイトクルージング":["ZD29iWW94yg","Fishmans – ナイトクルージング"],
-  "People’s Rocksteady":["VHwU9XejwCY","The Uniques – People Rocksteady"]
+  "People’s Rocksteady":["VHwU9XejwCY","The Uniques – People Rocksteady"],
+  "Perfidia":["ZnXIM3yPhw4","Phyllis Dillon – Perfidia"],
+  "My Conversation":["cUyJ965eHok","The Uniques – My Conversation"],
+  "Baby I Love You So":["Iu5hllp7Vgo","Jacob Miller – Baby I Love You So"],
+  "I’m Just a Guy":["ASLbLIb1pH8","Alton Ellis – I’m Just a Guy"]
 };
 
 function inlineTracks(){
