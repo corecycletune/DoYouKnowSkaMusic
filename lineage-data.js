@@ -8,6 +8,7 @@ window.SKA_LINEAGE = {
     {id:"reggae", label:"Early Reggae", year:1968, x:340, tags:["jamaica","reggae"], summary:"Rocksteadyからリズムが変化し、Reggaeと呼ばれる新しいスタイルが定着していく。", article:"./genres/reggae.html"},
     {id:"roots", label:"Roots Reggae", year:1971, x:135, tags:["jamaica","roots"], summary:"Rastafari、社会、政治、アフリカ意識を強く打ち出した70年代の大きな流れ。", article:"./genres/roots-reggae.html"},
     {id:"dub", label:"Dub", year:1972, x:515, tags:["jamaica","dub"], summary:"ミキサー、エコー、リバーブを使い、録音そのものを再構成する音楽。スタジオが楽器になった。", article:"./genres/dub.html"},
+    {id:"lovers-rock", label:"Lovers Rock", year:1976, x:575, tags:["uk","reggae"], summary:"1970年代半ばの英国で、ReggaeとSoulが交わり育った歌の流れ。2 Toneと同時代の別の英国レゲエ。", article:"./genres/lovers-rock.html"},
     {id:"dancehall", label:"Dancehall", year:1978, x:340, tags:["jamaica","dancehall"], summary:"サウンドシステムとダンスの現場を軸に、Deejayの存在感がさらに強くなった時代。", article:"./genres/dancehall.html"},
 
     {id:"two-tone", label:"2 Tone", year:1979, x:765, tags:["uk","ska"], summary:"英国でSKA / RocksteadyとPunk / New Waveが接続。Second Waveとも呼ばれる大きなSKAリバイバル。", article:"./genres/two-tone.html"},
@@ -42,6 +43,7 @@ window.SKA_LINEAGE = {
     {from:"roots",to:"reggae-revival",type:"branch"},
     {from:"reggae-revival",to:"modern",type:"branch"},
     {from:"reggae",to:"dub",type:"branch"},
+    {from:"reggae",to:"lovers-rock",type:"branch"},
     {from:"dancehall",to:"reggae-fusion",type:"branch"},
     {from:"reggae-fusion",to:"modern",type:"branch"},
 

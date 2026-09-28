@@ -205,6 +205,7 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   text-decoration-color:var(--red);
 }
 .entity-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.4rem 0 2rem}
+.film-list{display:grid;gap:1.2rem;margin:2rem 0}.film-card{border:2px solid var(--ink);background:var(--paper2);padding:1.2rem 1.35rem;box-shadow:3px 3px 0 rgba(38,35,29,.22)}.film-card h2{margin:.3rem 0!important}.film-card p{margin:.65rem 0}.film-status{font-weight:800}.film-purchase{display:inline-block;margin-top:.8rem;background:var(--green);color:white;padding:.5rem .7rem;font-weight:800;text-decoration:none}
 .entity-grid article{border:2px solid var(--ink);background:var(--paper2);padding:1rem 1.05rem;box-shadow:3px 3px 0 rgba(38,35,29,.22)}
 .entity-grid h3{margin:.2rem 0 .55rem;font:900 1.25rem Georgia,serif}
 .entity-grid p{font-size:.94rem;margin:.25rem 0}

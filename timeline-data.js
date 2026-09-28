@@ -7,6 +7,7 @@ window.SKA_TIMELINE = [
   {year:1968, region:"uk", tags:["uk","reggae"], title:"Trojan Records 設立", text:"英国でTrojan Recordsが始動。ジャマイカのSka、Rocksteady、Early Reggaeのレコードを広く流通させ、後の2 Tone世代が音源に出会う土壌を作った。"},
   {year:1971, region:"jamaica", tags:["jamaica","roots"], title:"Roots Reggae", text:"Rastafari、社会や政治、アフリカ意識を強く打ち出すRoots Reggaeが70年代の大きな流れになる。"},
   {year:1972, region:"jamaica", tags:["jamaica","dub"], title:"Dub", text:"ヴォーカルを抜き、ベースとドラムを残し、エコーやリバーブ、ミキサー操作そのものを音楽にする。スタジオが楽器になる。"},
+  {year:1975, region:"uk", tags:["uk","reggae"], title:"Lovers Rock が英国で育つ", text:"英国のカリブ系コミュニティーでReggaeとSoulが交わる。Louisa Markの録音を含む最初期の作品から、恋愛と日常を歌う独自の流れへ。"},
   {year:1978, region:"jamaica", tags:["jamaica","dancehall"], title:"Dancehall", text:"Roots中心の時代から、サウンドシステムとダンスの現場を軸にしたDancehallの時代へ。Deejayの存在感もさらに強くなる。"},
   {year:1979, region:"uk", tags:["uk","ska"], title:"2 Tone", text:"英国でSKA / RocksteadyとPunk / New Waveが接続。The Specials、The Selecter、Madness、The Beatらが新しい世代のSKAを鳴らす。"},
   {year:1985, region:"jamaica", tags:["jamaica","dancehall","digital"], title:"Digital Dancehall / Sleng Teng", text:"Wayne Smith『Under Mi Sleng Teng』の大ヒットを象徴に、打ち込み主体のデジタルRiddimが一気に主流化。制作のルールそのものが変わる。"},
