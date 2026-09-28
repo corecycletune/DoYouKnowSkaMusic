@@ -59,7 +59,7 @@ main{max-width:var(--max);margin:auto;padding:0 1.2rem}
 .listen-card ul{padding-left:1.25rem;margin:.8rem 0}
 .listen-card li::marker{color:var(--red)}
 .button-row{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.6rem}
-.button{appearance:none;border:2px solid var(--ink);background:var(--green);color:#fff;padding:.65rem .9rem;text-decoration:none;font-weight:900;box-shadow:3px 3px 0 var(--ink);cursor:pointer;font:inherit}
+.button{appearance:none;display:inline-block;max-width:100%;border:2px solid var(--ink);background:var(--green);color:#fff;padding:.65rem .9rem;text-decoration:none;font-weight:900;box-shadow:3px 3px 0 var(--ink);cursor:pointer;font:inherit;white-space:normal;overflow-wrap:anywhere;line-height:1.45}
 .button:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink);background:var(--yellow);color:var(--ink)}
 .button.ghost{background:transparent;color:var(--ink)}
 .section-head{max-width:800px}
@@ -115,6 +115,9 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .article-shell p{font-size:1.04rem}
 .article-shell .dek{font-size:1.35rem;font-weight:700}
 .callout{border:2px solid var(--ink);background:#e8d79b;padding:1rem 1.2rem;margin:2rem 0;box-shadow:4px 4px 0 var(--brown)}
+.listening-step{border-left:5px solid var(--green);background:var(--paper2);padding:.15rem 1.25rem .7rem;margin:1.6rem 0 2.4rem}
+.article-shell .listening-step h2{font-size:1.4rem;border:0;margin:1rem 0 .4rem;padding:0}
+.listening-step p{margin:.7rem 0}
 .source-box{margin-top:3rem;border-top:2px solid var(--brown);padding-top:1rem;font-size:.85rem;color:#4c473e}
 .source-box li{margin:.5rem 0}
 .source-box a{word-break:break-all}
@@ -184,6 +187,8 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .lineage-node text{font:800 12px monospace;fill:var(--ink);pointer-events:none}
 .lineage-node:hover rect,.lineage-node:focus rect{fill:#e8d79b;stroke-width:2.5}
 .lineage-node.selected rect{fill:var(--green);stroke:var(--ink);stroke-width:2.5}
+.lineage-node[data-id="lovers-rock"] rect{fill:#e9cda6;stroke:var(--red);stroke-width:2.5}
+.lineage-node[data-id="lovers-rock"].selected rect{fill:var(--green);stroke:var(--ink)}
 .lineage-node.selected text{fill:#fff}
 .lineage-node.muted{opacity:.12}
 .lineage-node:focus{outline:none}
@@ -289,6 +294,8 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
   cursor:pointer;
 }
 .inline-listen.active{color:var(--green)}
+.track-inline{display:inline-flex;align-items:center;margin:0 .25em 0 .4em;vertical-align:baseline;font:800 .76em/1.25 monospace;white-space:nowrap;color:var(--green);text-decoration:underline;text-underline-offset:2px}
+.track-inline:hover,.track-inline:focus-visible{color:var(--red)}
 .first-listen-player{
   margin:.9rem 0 .6rem;
   border:2px solid var(--ink);

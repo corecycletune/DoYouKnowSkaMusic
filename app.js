@@ -67,7 +67,8 @@ function renderLineage(){
       <text x="135" y="28" text-anchor="middle">ROOTS</text>
       <text x="340" y="28" text-anchor="middle">JAMAICA</text>
       <text x="515" y="28" text-anchor="middle">DUB / FUSION</text>
-      <text x="800" y="28" text-anchor="middle">SKA FAMILY</text>
+      <text x="760" y="28" text-anchor="middle">SKA FAMILY</text>
+      <text x="970" y="28" text-anchor="middle">UK REGGAE</text>
     </g>`;
   const grid=years.map(y=>`
     <g class="lineage-year"><text x="8" y="${mapY(y)+4}">${y}</text>
@@ -180,12 +181,15 @@ function youtubeIdFromUrl(raw){
 }
 
 function ensureInlinePlayer(anchor){
-  const section=anchor.closest(".listen-box") || anchor.closest(".listen-card") || anchor.parentElement;
-  let host=section?.querySelector(".inline-youtube-player");
-  if(!host && section){
+  const section=anchor.closest(".listen-box, .listen-card");
+  const block=anchor.closest("p, li, h2, h3, h4") || anchor.parentElement;
+  let host=section?.querySelector(".inline-youtube-player") ||
+    (block?.nextElementSibling?.classList.contains("inline-youtube-player")?block.nextElementSibling:null);
+  if(!host && block){
     host=document.createElement("div");
     host.className="inline-youtube-player";
-    section.appendChild(host);
+    if(section) section.appendChild(host);
+    else block.after(host);
   }
   return host;
 }
@@ -213,6 +217,113 @@ function playInlineYouTube(trigger,id,title){
   });
   host.scrollIntoView({behavior:"smooth",block:"nearest"});
 }
+
+// Track names in the articles open the specific recording at the point of mention.
+// Only use IDs whose artist and title have been checked; no search-result buttons.
+const TRACK_VIDEOS={
+  "Guns of Navarone":["DTol7Wm_NiQ","The Skatalites – Guns of Navarone"],
+  "One Step Beyond":["2xcGVm06jl4","Prince Buster – One Step Beyond"],
+  "Simmer Down":["7xo-BCAjMiM","The Wailing Wailers – Simmer Down"],
+  "Israelites":["mxtfdH3-TQ4","Desmond Dekker – Israelites"],
+  "54-46 That’s My Number":["joxAQs2DHNU","The Maytals – 54-46 That’s My Number"],
+  "54-46 (That’s My Number)":["joxAQs2DHNU","The Maytals – 54-46 That’s My Number"],
+  "007 (Shanty Town)":["jpwH2Y58TeI","Desmond Dekker – 007 (Shanty Town)"],
+  "Ghost Town":["RZ2oXzrnti4","The Specials – Ghost Town"],
+  "Gangsters":["Sn4ntpOXE6w","The Specials – Gangsters"],
+  "Al Capone":["0pcwhAxMSLI","Prince Buster – Al Capone"],
+  "A Message to You Rudy":["cntvEDbagAw","The Specials – A Message to You Rudy"],
+  "The Prince":["9_y7gC4T58g","Madness – The Prince"],
+  "Monkey Man":["DCpmJHFMNRI","The Specials – Monkey Man"],
+  "On My Radio":["074AfC9tw48","The Selecter – On My Radio (1979 TV performance)"],
+  "Too Much Pressure":["MJ7ifuDVHl0","The Selecter – Too Much Pressure"],
+  "Mirror in the Bathroom":["O3PwyGIZxX8","The Beat – Mirror in the Bathroom"],
+  "Our House":["KwIe_sjKeAY","Madness – Our House"],
+  "Baggy Trousers":["Dc3AovUZgvo","Madness – Baggy Trousers"],
+  "The Tide Is High":["SQXqkiKXiHc","The Paragons – The Tide Is High"],
+  "Train to Skaville":["L5fJQ9DYL0k","The Ethiopians – Train to Skaville"],
+  "King Tubby Meets Rockers Uptown":["ztq7-kkygZk","Augustus Pablo / King Tubby – King Tubby Meets Rockers Uptown"],
+  "Under Mi Sleng Teng":["vn6CP_1xQcE","Wayne Smith – Under Mi Sleng Teng"],
+  "Do the Reggay":["9eM3UlP4VNw","Toots & The Maytals – Do the Reggay"],
+  "The Impression That I Get":["NIGMUAMevH0","The Mighty Mighty Bosstones – The Impression That I Get"],
+  "Time Bomb":["DhKHAopx7D0","Rancid – Time Bomb"],
+  "2-Tone Army":["lC6UF2Fn65A","The Toasters – 2-Tone Army"],
+  "Party Time":["aMVZvjnEOXA","The Heptones – Party Time"],
+  "Rivers of Babylon":["BXf1j8Hz2bU","The Melodians – Rivers of Babylon"],
+  "Everything I Own":["JZHTg26q1Js","Ken Boothe – Everything I Own"],
+  "Girl I’ve Got a Date":["UMd8XVEaKO4","Alton Ellis – Girl I’ve Got a Date"],
+  "Take It Easy":["7pnuW8V8obc","Hopeton Lewis – Take It Easy"],
+  "You Don’t Care":["jMauMXfV2A8","The Techniques – You Don’t Care"],
+  "Swing and Dine":["pyy3oXnLckk","The Melodians – Swing and Dine"],
+  "Little Nut Tree":["U3Hxb0ktgyQ","The Melodians – Little Nut Tree"],
+  "Only a Smile":["pVA4acOeN84","The Paragons – Only a Smile"],
+  "One Life to Live":["h4WXJu6sjEg","Phyllis Dillon – One Life to Live"],
+  "Dance Crasher":["-Ctg1FK0sYE","Alton Ellis – Dance Crasher"],
+  "Boogie in My Bones":["y067sauu7qk","Laurel Aitken – Boogie in My Bones"],
+  "Pretty Looks Isn’t All":["tAHYMYBA2hY","The Heptones – Pretty Looks Isn’t All"],
+  "Long Shot Kick De Bucket":["ZivevzNnZyw","The Pioneers – Long Shot Kick De Bucket"],
+  "Too Hot":["XkGigEMADIc","The Specials – Too Hot"],
+  "Don’t Stay Away":["YkzhkLdweao","Phyllis Dillon – Don’t Stay Away"],
+  "Hold Them":["IC8R1r_FMjA","Roy Shirley – Hold Them"],
+  "Silly Games":["HTp2iX6Mq7U","Janet Kay – Silly Games"],
+  "LONG SEASON":["GwWv-T4rM0k","Fishmans – LONG SEASON"],
+  "Little Fluffy Clouds":["2Ng9Pf_p7Fw","The Orb – Little Fluffy Clouds"],
+  "Nanny Goat":["rN7_0S-7tiE","Larry Marshall – Nanny Goat"],
+  "People Funny Boy":["nscYSjuAQYM","Lee Perry – People Funny Boy"],
+  "Tougher Than Tough":["LU2Bt9cB6KY","Derrick Morgan – Tougher Than Tough"],
+  "Tears of a Clown":["ohpAuziamMU","The Beat – Tears of a Clown"],
+  "I’m Still in Love":["WQSbDBKV_GM","Alton Ellis – I’m Still in Love"],
+  "The Selecter":["oeira_3fvvo","The Selecter – The Selecter"],
+  "Enjoy Yourself":["roE5l5aVWs8","The Specials – Enjoy Yourself"],
+  "Hands Off… She’s Mine":["CwhdNK1pWS0","The Beat – Hands Off... She's Mine"],
+  "Bangarang":["nw1ECvnqlu8","Lester Sterling & Stranger Cole – Bangarang"],
+  "007":["jpwH2Y58TeI","Desmond Dekker – 007 (Shanty Town)"],
+  "54-46":["joxAQs2DHNU","The Maytals – 54-46 That’s My Number"],
+  "Everything Crash":["IxF1pz3VrfE","The Ethiopians – Everything Crash"],
+  "No More Heartaches":["8_E1biKrlw4","The Beltones – No More Heartaches"]
+};
+
+function inlineTracks(){
+  const main=document.querySelector("main");
+  if(!main)return;
+  const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT);
+  const nodes=[];
+  while(walker.nextNode()){
+    const n=walker.currentNode, el=n.parentElement;
+    if(!el?.closest("p, li, h2, h3, h4"))continue;
+    if(el.closest("a, button, .source-box, .related-links, .youtube-links, .first-listen-links"))continue;
+    if(/[“「『]/.test(n.textContent))nodes.push(n);
+  }
+  for(const node of nodes){
+    const source=node.textContent;
+    const re=/[“「『]([^”」』]{2,70})[”」』]/g;
+    let m,last=0,fragment=document.createDocumentFragment(),changed=false;
+    while((m=re.exec(source))){
+      const name=m[1].trim();
+      const surrounding=node.parentElement.closest("p, li")?.textContent||"";
+      let video=TRACK_VIDEOS[name];
+      if(name==="One Step Beyond" && location.pathname.endsWith("/artists/madness.html"))
+        video=["SOJSM46nWwo","Madness – One Step Beyond"];
+      if(name==="A Message to You Rudy" && surrounding.includes("Dandy Livingstone"))
+        video=["OXXOaecD52k","Dandy Livingstone – Rudy, A Message to You"];
+      if(name==="Monkey Man" && surrounding.includes("The Maytals"))
+        video=["WNRs3PTlGOU","The Maytals – Monkey Man"];
+      if(!video)continue;
+      fragment.append(document.createTextNode(source.slice(last,re.lastIndex)));
+      const button=document.createElement("button");
+      button.type="button";
+      button.className="inline-listen track-inline";
+      button.dataset.video=video[0];
+      button.dataset.title=video[1];
+      button.textContent="▶ 試聴";
+      button.setAttribute("aria-label",`${video[1]}をサイト内で試聴`);
+      fragment.append(button);
+      last=re.lastIndex;
+      changed=true;
+    }
+    if(changed){fragment.append(document.createTextNode(source.slice(last)));node.replaceWith(fragment);}
+  }
+}
+inlineTracks();
 
 document.querySelectorAll(".inline-listen").forEach(btn=>{
   btn.addEventListener("click",()=>{
