@@ -420,3 +420,15 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
  .sitebar-nav a:nth-child(2),.sitebar-nav a:nth-child(3){display:inline-block}
  .sitebar-nav a{font-size:.66rem}
 }
+
+/* A small listening shelf, with explicit search and release details. */
+.record-shelf{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem;margin:1.5rem 0 2rem}
+.shelf-card{border:2px solid var(--ink);background:#f8f2df;padding:1.25rem;box-shadow:5px 5px 0 rgba(32,39,31,.14)}
+.shelf-card h3{margin:.2rem 0 .65rem;font-size:clamp(1.2rem,2vw,1.65rem)}
+.shelf-card p{margin:.55rem 0;line-height:1.7}
+.shelf-meta{font-size:.84rem;color:var(--green)}
+.shelf-links{display:flex;flex-wrap:wrap;gap:.65rem;align-items:center;margin-top:1rem}
+.shelf-links a:first-child{display:inline-block;background:var(--green);color:#fff;padding:.65rem .85rem;text-decoration:none;font-weight:700}
+.shelf-links a:first-child:hover{background:var(--ink)}
+.shelf-links a:not(:first-child){font-size:.87rem}
+@media(max-width:720px){.record-shelf{grid-template-columns:1fr}}
