@@ -193,7 +193,7 @@ function youtubeIdFromUrl(raw){
 
 function ensureInlinePlayer(anchor){
   const section=anchor.closest(".listen-box, .listen-card");
-  const block=anchor.closest("p, li, h2, h3, h4") || anchor.parentElement;
+  const block=anchor.closest(".listen-row, p, li, h2, h3, h4") || anchor.parentElement;
   let host=section?.querySelector(".inline-youtube-player") ||
     (block?.nextElementSibling?.classList.contains("inline-youtube-player")?block.nextElementSibling:null);
   if(!host && block){
@@ -349,6 +349,37 @@ function inlineTracks(){
 }
 inlineTracks();
 
+// A recording gets one listening row per page, separate from the prose.
+function organizeListeningRows(){
+  const seenIds=new Set(), seenTitles=new Set();
+  const normalize=title=>title.toLowerCase().replace(/[’‘]/g,"'").replace(/[–—]/g,"-").replace(/\s+/g," ").trim();
+  document.querySelectorAll("main .inline-listen, main .youtube-links a").forEach(control=>{
+    if(control.closest(".film-card"))return;
+    const oldLabel=control.textContent.replace(/\s*↗\s*$/,"").trim();
+    const id=control.dataset.video || youtubeIdFromUrl(control.href) || YT_KNOWN[oldLabel];
+    if(!id){control.hidden=true;return;}
+    const title=control.dataset.title || oldLabel;
+    const key=normalize(title);
+    if(seenIds.has(id)||seenTitles.has(key)){control.remove();return;}
+    seenIds.add(id);seenTitles.add(key);
+    control.dataset.video=id;
+    control.dataset.title=title;
+    control.textContent=`${title} — LISTEN`;
+    control.setAttribute("aria-label",`${title}を聴く`);
+    control.classList.add("listen-track");
+    const row=document.createElement("div");
+    row.className="listen-row";
+    const block=control.closest("p, li, h2, h3, h4");
+    if(block&&!control.closest(".first-listen-links, .youtube-links")){
+      let after=block;
+      while(after.nextElementSibling?.classList.contains("listen-row"))after=after.nextElementSibling;
+      after.after(row);
+    }else control.before(row);
+    row.append(control);
+  });
+}
+organizeListeningRows();
+
 document.querySelectorAll(".inline-listen").forEach(btn=>{
   btn.addEventListener("click",()=>{
     const id=btn.dataset.video;
@@ -369,9 +400,8 @@ document.querySelectorAll(".youtube-links a[href*='youtube.com'], .youtube-links
   if(!initialId){ a.hidden=true; return; }
   a.addEventListener("click",e=>{
     e.preventDefault();
-    const cleanLabel=a.textContent.replace(/\s*↗\s*$/,"").trim();
+    const cleanLabel=a.dataset.title || a.textContent.replace(/\s*↗\s*$/,"").trim();
     const id=a.dataset.video || youtubeIdFromUrl(a.href) || YT_KNOWN[cleanLabel] || null;
-    a.textContent=cleanLabel;
     if(id){
       playInlineYouTube(a,id,cleanLabel);
       return;
