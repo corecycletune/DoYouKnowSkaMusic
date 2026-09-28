@@ -70,7 +70,7 @@ function renderLineage(){
       <text x="340" y="28" text-anchor="middle">JAMAICA</text>
       <text x="515" y="28" text-anchor="middle">DUB / FUSION</text>
       <text x="760" y="28" text-anchor="middle">SKA FAMILY</text>
-      <text x="970" y="28" text-anchor="middle">UK REGGAE</text>
+      <text x="970" y="28" text-anchor="middle">UK / WORLD</text>
     </g>`;
   const grid=years.map(y=>`
     <g class="lineage-year"><text x="8" y="${mapY(y)+4}">${y}</text>
@@ -138,6 +138,7 @@ function applyLineageFilter(filter){
     let show;
     if(filter==="all") show=!isDetail;
     else if(filter==="ska") show=tags.includes("ska");
+    else if(filter==="world") show=!isDetail&&(tags.includes("world")||el.dataset.id==="reggae"||el.dataset.id==="ska");
     else show=!isDetail&&(tags.includes(filter));
     el.classList.toggle("hidden-filter",!show);
     if(show)shown.add(el.dataset.id);

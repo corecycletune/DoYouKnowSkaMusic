@@ -189,6 +189,8 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .lineage-node:hover rect,.lineage-node:focus rect{fill:#e8d79b;stroke-width:2.5}
 .lineage-node.selected rect{fill:var(--green);stroke:var(--ink);stroke-width:2.5}
 .lineage-node[data-id="lovers-rock"] rect{fill:#e9cda6;stroke:var(--red);stroke-width:2.5}
+.lineage-node[data-id="australian-reggae"] rect,.lineage-node[data-id="aotearoa-reggae"] rect,.lineage-node[data-id="brazil-reggae"] rect{fill:#d8c89e;stroke:var(--green);stroke-width:2.2}
+.lineage-node[data-id="japan-ska-dub"] rect{fill:#d4c4a0;stroke:var(--brown);stroke-width:2.2}
 .lineage-node[data-id="lovers-rock"].selected rect{fill:var(--green);stroke:var(--ink)}
 .lineage-node.selected text{fill:#fff}
 .lineage-node.muted{opacity:.12}
