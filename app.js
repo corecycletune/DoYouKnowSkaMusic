@@ -38,6 +38,8 @@ function render(filter="all"){
       <div class="timeline-card">
         <div class="meta">${item.tags.map(t=>`<span class="tag ${t}">${t.toUpperCase()}</span>`).join("")}</div>
         <h3>${item.title}</h3><p>${item.text}</p>
+        ${item.article?`<a class="timeline-read" href="${item.article}">${item.second?"日本のSKAを読む":"詳しく読む"} →</a>`:""}
+        ${item.second?`<a class="timeline-read" href="${item.second}">日本のDubを読む →</a>`:""}
       </div>
     </article>`).join("");
 }
@@ -303,6 +305,7 @@ function inlineTracks(){
     const n=walker.currentNode, el=n.parentElement;
     if(!el?.closest("p, li, h2, h3, h4"))continue;
     if(el.closest("a, button, .source-box, .related-links, .youtube-links, .first-listen-links"))continue;
+    if(el.closest("p, li")?.querySelector(".track-inline"))continue;
     if(/[“「『]/.test(n.textContent))nodes.push(n);
   }
   for(const node of nodes){

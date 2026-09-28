@@ -73,6 +73,7 @@ main{max-width:var(--max);margin:auto;padding:0 1.2rem}
 .year{font:900 1.2rem/1 Georgia,serif;padding-top:1rem}
 .timeline-card{background:var(--paper2);border:2px solid var(--ink);padding:1rem 1.1rem;box-shadow:3px 3px 0 rgba(70,55,35,.24)}
 .timeline-card h3{margin:0;font-size:1.2rem}
+.timeline-read{display:inline-block;margin:.55rem .8rem 0 0;color:var(--green);font-weight:900;text-decoration:underline;text-underline-offset:3px}
 .meta{display:flex;gap:.35rem;flex-wrap:wrap;margin-bottom:.45rem}
 .tag{font:700 .7rem/1 monospace;border:1px solid var(--ink);padding:.22rem .35rem}
 .tag.jamaica{background:#c9d2a8}.tag.uk{background:#d7c9a8}.tag.usa{background:#d9b9aa}.tag.japan{background:#e2c990}.tag.dub{background:#c7b6a6}.tag.society{background:#ddd0b3}
