@@ -338,8 +338,8 @@ function inlineTracks(){
       button.className="inline-listen track-inline";
       button.dataset.video=video[0];
       button.dataset.title=video[1];
-      button.textContent="▶ 試聴";
-      button.setAttribute("aria-label",`${video[1]}をサイト内で試聴`);
+      button.textContent="△視聴";
+      button.setAttribute("aria-label",`${video[1]}をサイト内で視聴`);
       fragment.append(button);
       last=re.lastIndex;
       changed=true;
@@ -364,7 +364,7 @@ function organizeListeningRows(){
     seenIds.add(id);seenTitles.add(key);
     control.dataset.video=id;
     control.dataset.title=title;
-    control.textContent=`${title} — LISTEN`;
+    control.textContent="△視聴";
     control.setAttribute("aria-label",`${title}を聴く`);
     control.classList.add("listen-track");
     const row=document.createElement("div");
