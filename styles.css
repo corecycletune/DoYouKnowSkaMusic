@@ -156,6 +156,8 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .lineage-legend i{display:inline-block;width:34px;height:0;border-top-style:solid}
 .legend-main{border-top-width:4px;border-top-color:var(--green)}
 .legend-branch{border-top-width:2px;border-top-color:var(--brown)}
+.legend-group{height:18px!important;width:28px!important;border:2px dashed rgba(111,86,56,.65)!important}
+.legend-peak{border-top-width:4px;border-top-color:var(--red);border-top-style:dashed!important}
 .lineage-shell{margin:1rem 0 3.2rem}
 .lineage-scroll{
   overflow-x:auto;
@@ -178,6 +180,11 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .lineage-edge.main{stroke:var(--green);stroke-width:4;opacity:.82}
 .lineage-edge.branch{stroke:var(--brown);stroke-width:2;opacity:.55}
 .lineage-edge.ska{stroke:var(--red);stroke-width:2.4;opacity:.68}
+.lineage-group{pointer-events:none}
+.lineage-group rect{fill:rgba(246,239,216,.22);stroke:rgba(111,86,56,.52);stroke-width:2;stroke-dasharray:8 6}
+.lineage-group text{font:800 11px monospace;letter-spacing:.1em;fill:var(--muted)}
+.lineage-group.nested rect{fill:rgba(216,163,111,.08);stroke:rgba(154,72,54,.48);stroke-dasharray:3 5}
+.lineage-group-inlet{fill:none;stroke:var(--brown);stroke-width:2.4;opacity:.7;marker-end:url(#arrow-branch)}
 .lineage-edge.muted{opacity:.05}
 #arrow-main path{fill:var(--green)}
 #arrow-branch path{fill:var(--brown)}
@@ -191,6 +198,8 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .lineage-node[data-id="lovers-rock"] rect{fill:#e9cda6;stroke:var(--red);stroke-width:2.5}
 .lineage-node[data-id="australian-reggae"] rect,.lineage-node[data-id="aotearoa-reggae"] rect,.lineage-node[data-id="brazil-reggae"] rect{fill:#d8c89e;stroke:var(--green);stroke-width:2.2}
 .lineage-node[data-id="japan-ska-dub"] rect{fill:#d4c4a0;stroke:var(--brown);stroke-width:2.2}
+.lineage-node.peak rect{fill:#e9cda6;stroke:var(--red);stroke-width:2.8}
+.lineage-node.origin rect{stroke:var(--green);stroke-width:2.4}
 .lineage-node[data-id="lovers-rock"].selected rect{fill:var(--green);stroke:var(--ink)}
 .lineage-node.selected text{fill:#fff}
 .lineage-node.muted{opacity:.12}

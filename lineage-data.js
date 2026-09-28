@@ -8,12 +8,17 @@ window.SKA_LINEAGE = {
     {id:"reggae", label:"Early Reggae", year:1968, x:340, tags:["jamaica","reggae"], summary:"Rocksteadyからリズムが変化し、Reggaeと呼ばれる新しいスタイルが定着していく。", article:"./genres/reggae.html"},
     {id:"roots", label:"Roots Reggae", year:1971, x:135, tags:["jamaica","roots"], summary:"Rastafari、社会、政治、アフリカ意識を強く打ち出した70年代の大きな流れ。", article:"./genres/roots-reggae.html"},
     {id:"dub", label:"Dub", year:1972, x:515, tags:["jamaica","dub"], summary:"ミキサー、エコー、リバーブを使い、録音そのものを再構成する音楽。スタジオが楽器になった。", article:"./genres/dub.html"},
+    {id:"uk-dub", label:"UK Dub / Sound System", year:1978, x:430, tags:["uk","dub","world"], summary:"ジャマイカのダブを英国のサウンドシステムとベース文化が受け取り、現場の音圧と低音を前面に出していく流れ。", article:"./genres/dub.html"},
+    {id:"post-punk-dub", label:"Post-punk / Dub", year:1979, x:565, tags:["uk","dub","ska"], summary:"ポストパンクの反復、空白、ベースとダブのミックスが交差した流れ。曲の構造をほどき、音響そのものを前景に出した。", article:"./genres/dub.html"},
+    {id:"ambient-dub", label:"Ambient Dub", year:1985, x:700, tags:["dub","world"], summary:"ダブの残響と低音を、踊るための速度から切り離し、長い余白と音響の移動として聴かせる流れ。", article:"./genres/ambient-dub.html"},
+    {id:"japan-dub", label:"Japan / Dub", year:1985, x:850, tags:["dub","japan","world"], summary:"日本の録音家やバンドが、ダブのミックスと音響をそれぞれの現場で掘り下げた地域の実践。単一のジャンル名ではない。", article:"./articles/japanese-dub.html"},
+    {id:"dub-techno", label:"Dub Techno", year:1993, x:565, tags:["dub","world"], detail:true, summary:"ダブの反復と残響を、テクノの機械的な拍と組み合わせた流れ。音数を増やさず、空間の変化で時間を作る。", article:"./genres/ambient-dub.html"},
     {id:"lovers-rock", label:"Lovers Rock", year:1975, x:970, tags:["uk","reggae","world"], summary:"英国のカリブ系コミュニティーでReggaeとSoulが交わり育った歌の流れ。ジャマイカ本流の外に浮く枝ではなく、移民の暮らしと英国の録音現場から生まれた別の発展として聴く。", article:"./genres/lovers-rock.html"},
     {id:"australian-reggae", label:"Australia / Reggae", year:1978, x:970, tags:["world","reggae"], summary:"ジャマイカのリズムをオーストラリアの多文化的な現場が受け取り、ルーツ、ロック、ダブの感触を混ぜてきた地域の流れ。単一のジャンル名ではなく、土地ごとの実践として見る。", article:"./articles/global-reggae.html"},
     {id:"aotearoa-reggae", label:"Aotearoa / Reggae", year:1980, x:970, tags:["world","reggae"], summary:"アオテアロアでは、レゲエがマオリや太平洋地域の声、ジャズやソウルと結びつき、バンド中心の独自の揺れを育てた。ウェリントンなどの現場から世界へ広がった。", article:"./articles/global-reggae.html"},
     {id:"brazil-reggae", label:"Brazil / Reggae", year:1982, x:970, tags:["world","reggae"], summary:"ブラジルではレゲエが地域のダンス文化やポルトガル語の歌と結びつき、北東部を中心に土着化した。輸入音楽のコピーではなく、土地のリズムで鳴らし直した例。", article:"./articles/global-reggae.html"},
     {id:"japan-ska-dub", label:"Japan / Ska + Dub", year:1980, x:600, tags:["world","japan"], summary:"日本のSKAとDubは一つのジャンル名ではなく、バンド、スタジオ、DJの現場がそれぞれの方法でジャマイカの音を受け取った地域のシーン。", article:"./genres/japan-ska.html"},
-    {id:"dancehall", label:"Dancehall", year:1978, x:340, tags:["jamaica","dancehall"], summary:"サウンドシステムとダンスの現場を軸に、Deejayの存在感がさらに強くなった時代。", article:"./genres/dancehall.html"},
+    {id:"dancehall", label:"Early Dancehall", year:1978, x:340, kind:"origin", tags:["jamaica","dancehall"], summary:"1970年代後半、ルーツ・レゲエとは違う地元のダンスホールの現場から育った初期ダンスホール。まずは音楽が鳴る場所と、ディージェイの役割が変わった時期として見る。", article:"./genres/dancehall.html"},
 
     {id:"two-tone", label:"2 Tone", year:1979, x:765, tags:["uk","ska"], summary:"英国でSKA / RocksteadyとPunk / New Waveが接続。Second Waveとも呼ばれる大きなSKAリバイバル。", article:"./genres/two-tone.html"},
     {id:"neo-ska", label:"Neo Ska / Ska Revival", year:1983, x:765, tags:["ska"], summary:"2 Tone以後、各国で広がったSKAリバイバル。日本では『ネオスカ』が2 Tone以降を広めに指す場合もある。", article:"./genres/neo-ska.html"},
@@ -28,10 +33,15 @@ window.SKA_LINEAGE = {
 
     {id:"digital", label:"Digital Dancehall", year:1985, x:340, tags:["jamaica","dancehall","digital"], summary:"Sleng Tengを象徴に、打ち込み主体のRiddimが主流化。制作方法そのものが変わった。", article:"./genres/digital-dancehall.html"},
     {id:"ragga", label:"Ragga", year:1988, x:340, tags:["jamaica","dancehall","ragga"], summary:"デジタル化したDancehallがさらに硬質化。DeejayやSingjayのスタイルも大きく広がった。", article:"./genres/ragga.html"},
-    {id:"reggae-fusion", label:"Reggae Fusion", year:2000, x:515, tags:["jamaica","dancehall"], summary:"Dancehallを軸にHip-Hop、R&B、Popとの融合が進み、世界的なヒットへつながった。", article:"./genres/reggae-fusion.html"},
+    {id:"reggae-fusion", label:"Dancehall Pop / 2000s", year:2002, x:515, kind:"peak", tags:["jamaica","dancehall"], summary:"80〜90年代にジャマイカとディアスポラで育ったダンスホールが、2000年代にポップ、R&B、ヒップホップの市場へ大きく届いた時期。Sean Paulらの成功で、世界の聴き手にも輪郭が見えた。", article:"./genres/reggae-fusion.html"},
     {id:"reggae-revival", label:"Reggae Revival", year:2011, x:135, tags:["jamaica","roots","modern"], summary:"Roots Reggaeの思想やバンドサウンドを、若い世代が現代の感覚で再接続した流れ。", article:"./genres/reggae-revival.html"},
     {id:"trap-dancehall", label:"Trap Dancehall", year:2016, x:340, tags:["jamaica","dancehall","modern"], summary:"Trapの808やハイハット、暗い音像を取り込んだ現代Dancehallの大きな流れ。", article:"./genres/trap-dancehall.html"},
     {id:"modern", label:"Jamaica Now", year:2024, x:340, tags:["jamaica","dancehall","modern"], summary:"Dancehall、Trap Dancehall、現代Roots、Pop、Hip-Hop、Afrobeatsとの往来が同時進行している。", article:"./genres/jamaica-now.html"}
+  ],
+  groups: [
+    {id:"jamaica-branches", label:"JAMAICA / RHYTHM + STUDIO", x:48, width:570, start:1970, end:2026, source:"reggae"},
+    {id:"dub-after", label:"DUB / AFTER THE MIX", x:350, width:470, start:1972, end:2002, source:"dub", nested:true},
+    {id:"world-receptions", label:"UK / WORLD RECEPTIONS", x:625, width:425, start:1975, end:2026, source:"ska"}
   ],
   edges: [
     {from:"mento-rnb",to:"ska",type:"main"},
@@ -47,10 +57,11 @@ window.SKA_LINEAGE = {
     {from:"roots",to:"reggae-revival",type:"branch"},
     {from:"reggae-revival",to:"modern",type:"branch"},
     {from:"reggae",to:"dub",type:"branch"},
-    {from:"reggae",to:"lovers-rock",type:"branch"},
-    {from:"reggae",to:"australian-reggae",type:"branch"},
-    {from:"reggae",to:"aotearoa-reggae",type:"branch"},
-    {from:"reggae",to:"brazil-reggae",type:"branch"},
+    {from:"dub",to:"uk-dub",type:"branch"},
+    {from:"uk-dub",to:"post-punk-dub",type:"branch"},
+    {from:"dub",to:"ambient-dub",type:"branch"},
+    {from:"dub",to:"japan-dub",type:"branch"},
+    {from:"ambient-dub",to:"dub-techno",type:"branch",detail:true},
     {from:"dancehall",to:"reggae-fusion",type:"branch"},
     {from:"reggae-fusion",to:"modern",type:"branch"},
 

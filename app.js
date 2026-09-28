@@ -75,6 +75,14 @@ function renderLineage(){
   const grid=years.map(y=>`
     <g class="lineage-year"><text x="8" y="${mapY(y)+4}">${y}</text>
     <line x1="56" y1="${mapY(y)}" x2="${MAP_W-12}" y2="${mapY(y)}"></line></g>`).join("");
+  const groups=(lineage.groups||[]).map(group=>{
+    const top=mapY(group.start)-28;
+    const bottom=mapY(group.end)+28;
+    const source=byId[group.source];
+    const sourceY=source?mapY(source.year)+17:top-30;
+    const inlet=source?`<path class="lineage-group-inlet" d="M ${source.x} ${sourceY} C ${source.x} ${sourceY+18}, ${group.x+group.width/2} ${top-18}, ${group.x+group.width/2} ${top}"></path>`:"";
+    return `<g class="lineage-group${group.nested?" nested":""}" data-group="${group.id}"><rect x="${group.x}" y="${top}" width="${group.width}" height="${bottom-top}" rx="8"></rect><text x="${group.x+14}" y="${top+20}">${group.label}</text>${inlet}</g>`;
+  }).join("");
   const edges=lineage.edges.map(edge=>{
     const a=byId[edge.from],b=byId[edge.to];
     return `<path class="lineage-edge ${edge.type}${edge.detail?" detail-only":""}" data-from="${edge.from}" data-to="${edge.to}" data-detail="${edge.detail?"1":"0"}" d="${curvePath(a,b)}" marker-end="url(#arrow-${edge.type})"></path>`;
@@ -83,7 +91,7 @@ function renderLineage(){
     const y=mapY(n.year);
     const w=Math.max(86,Math.min(156,n.label.length*8.2+28));
     return `
-      <g class="lineage-node${n.detail?" detail-only":""}" data-id="${n.id}" data-tags="${n.tags.join(" ")}" data-detail="${n.detail?"1":"0"}" tabindex="0" role="button" aria-label="${n.label}">
+      <g class="lineage-node${n.detail?" detail-only":""}${n.kind?` ${n.kind}`:""}" data-id="${n.id}" data-tags="${n.tags.join(" ")}" data-detail="${n.detail?"1":"0"}" tabindex="0" role="button" aria-label="${n.label}">
         <rect x="${n.x-w/2}" y="${y-17}" width="${w}" height="34" rx="3"></rect>
         <text x="${n.x}" y="${y+4}" text-anchor="middle">${n.label}</text>
       </g>`;
@@ -93,7 +101,7 @@ function renderLineage(){
       <marker id="arrow-main" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z"></path></marker>
       <marker id="arrow-branch" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z"></path></marker>
       <marker id="arrow-ska" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z"></path></marker>
-    </defs>${laneLabels}${grid}${edges}${nodes}`;
+    </defs>${laneLabels}${grid}${groups}${edges}${nodes}`;
   svg.querySelectorAll(".lineage-node").forEach(el=>{
     const open=()=>selectLineage(el.dataset.id);
     el.addEventListener("click",open);
