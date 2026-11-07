@@ -246,8 +246,8 @@ footer p{padding:0 1rem;font:700 .8rem monospace;color:var(--brown)}
 .entity-grid article{border:2px solid var(--ink);background:var(--paper2);padding:1rem 1.05rem;box-shadow:3px 3px 0 rgba(38,35,29,.22)}
 .entity-grid h3{margin:.2rem 0 .55rem;font:900 1.25rem Georgia,serif}
 .entity-grid p{font-size:.94rem;margin:.25rem 0}
-.listen-box,.related-box{margin:3rem 0 1.5rem;padding:1.2rem;border:2px solid var(--ink);background:var(--paper3);box-shadow:3px 3px 0 var(--brown)}
-.listen-box h2,.related-box h2{margin-top:.2rem!important}
+.listen-box,.related-box,.buy-box{margin:3rem 0 1.5rem;padding:1.2rem;border:2px solid var(--ink);background:var(--paper3);box-shadow:3px 3px 0 var(--brown)}
+.listen-box h2,.related-box h2,.buy-box h2{margin-top:.2rem!important}
 .youtube-links,.related-links{display:flex;flex-wrap:wrap;gap:.6rem}
 .youtube-links a{display:inline-block;background:var(--red);color:#fff;border:2px solid var(--ink);padding:.5rem .7rem;font-weight:900;text-decoration:none!important;box-shadow:2px 2px 0 var(--ink)}
 .youtube-links a:hover{background:var(--yellow);color:var(--ink)}
