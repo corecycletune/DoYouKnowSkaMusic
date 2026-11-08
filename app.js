@@ -412,3 +412,23 @@ document.querySelectorAll(".youtube-links a[href*='youtube.com'], .youtube-links
     }
   });
 });
+
+// Google Analytics 4 (DoYouKnowSkaMusic) — added 2026-11-08
+(function initAnalytics(){
+  try{
+    var GA_ID="G-4QF1T5MCXM";
+    var s=document.createElement("script");
+    s.async=true;
+    s.src="https://www.googletagmanager.com/gtag/js?id="+GA_ID;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    window.gtag=function(){window.dataLayer.push(arguments)};
+    window.gtag("js", new Date());
+    window.gtag("config", GA_ID);
+    document.addEventListener("click", function(e){
+      var a=e.target && e.target.closest ? e.target.closest('a[href*="amazon.co.jp"]') : null;
+      if(!a) return;
+      window.gtag("event","affiliate_click",{link_url:a.href, page_path:location.pathname});
+    });
+  }catch(err){ /* analytics must never break the page */ }
+})();
